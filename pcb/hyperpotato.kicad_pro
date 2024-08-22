@@ -427,9 +427,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "ssbb_parts"
+    ],
     "pinned_symbol_libs": [
-      "hyperpotato"
+      "hyperpotato",
+      "ssbb_parts"
     ]
   },
   "meta": {
