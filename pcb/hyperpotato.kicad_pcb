@@ -41,7 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 156.488312 132.416627)
+		(grid_origin 74.334997 144.921198)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -102,7 +102,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "346c7a55-fe95-4b23-9cbf-03cfbef726ab")
-		(at 135.493045 67.02419)
+		(at 132.55878 74.720028)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW4"
 			(at 0 2.75 360)
@@ -169,7 +169,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.500001)
-			(end 9 -8.500001)
+			(end 8.999998 -8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -178,7 +178,7 @@
 			(uuid "a62bcdde-3c3e-45f2-8e77-e2093d7c8448")
 		)
 		(fp_line
-			(start -9 8.500001)
+			(start -8.999998 8.500001)
 			(end -9 -8.500001)
 			(stroke
 				(width 0.12)
@@ -188,7 +188,7 @@
 			(uuid "67657d84-995d-44bd-b74d-101d3b290a7c")
 		)
 		(fp_line
-			(start 9 -8.500001)
+			(start 8.999998 -8.500001)
 			(end 9 8.500001)
 			(stroke
 				(width 0.12)
@@ -199,7 +199,7 @@
 		)
 		(fp_line
 			(start 9 8.500001)
-			(end -9 8.500001)
+			(end -8.999998 8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -220,7 +220,7 @@
 			(uuid "34c24706-60de-4cd4-83b0-f20e092ca3c9")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -230,7 +230,7 @@
 			(uuid "aa3379e2-fd88-4d00-b575-3471c69759c2")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -240,7 +240,7 @@
 			(uuid "b6e72912-4f42-4456-b6b4-15d040d4bbb6")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -250,7 +250,7 @@
 			(uuid "ce7b03a7-9189-4b64-8c2b-d83e28368fd2")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -262,7 +262,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -273,7 +273,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -284,7 +284,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -295,7 +295,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -344,7 +344,7 @@
 			(uuid "ba7c12b0-29cb-4766-8b85-17ed41ee3677")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 0)
+			(at 0.000001 -4.7 0)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "b429f78e-05e6-49aa-bbd6-4b1029173505")
@@ -388,7 +388,7 @@
 			(uuid "7cbc34ce-2023-4f8b-a1d7-d276b002934c")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 180)
+			(at -4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -399,7 +399,7 @@
 			(uuid "45690e7f-586c-4d76-b25f-3a0f25a44f6d")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 180)
+			(at 4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -410,7 +410,7 @@
 			(uuid "050e7d66-073e-44e3-9e6e-b2d36e4bcdd6")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 180)
+			(at 0 5.900002 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -424,7 +424,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "41e9b1c1-ceea-4036-ba9e-66c26a4f1891")
-		(at 117.493048 79.77419)
+		(at 114.558785 87.470027)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW8"
 			(at 0 2.75 360)
@@ -491,7 +491,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.500001)
-			(end 9 -8.500001)
+			(end 8.999998 -8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -500,7 +500,7 @@
 			(uuid "b76a4304-43a0-4c7f-a71a-855195c87cc0")
 		)
 		(fp_line
-			(start -9 8.500001)
+			(start -8.999998 8.500001)
 			(end -9 -8.500001)
 			(stroke
 				(width 0.12)
@@ -510,7 +510,7 @@
 			(uuid "c225311c-ed43-4a05-b97c-9a829fb88f01")
 		)
 		(fp_line
-			(start 9 -8.500001)
+			(start 8.999998 -8.500001)
 			(end 9 8.500001)
 			(stroke
 				(width 0.12)
@@ -521,7 +521,7 @@
 		)
 		(fp_line
 			(start 9 8.500001)
-			(end -9 8.500001)
+			(end -8.999998 8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -542,7 +542,7 @@
 			(uuid "dd5e2938-153a-417e-b8ef-b548d9e98d3e")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -552,7 +552,7 @@
 			(uuid "93605e32-6964-4528-b8f3-8615ad084d71")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -562,7 +562,7 @@
 			(uuid "760c6b82-7f6f-4f41-a35b-54e5e6022132")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -572,7 +572,7 @@
 			(uuid "bd230c9f-6f99-4775-842b-4f86f1251c83")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -584,7 +584,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -595,7 +595,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -606,7 +606,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -617,7 +617,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -666,7 +666,7 @@
 			(uuid "8c6d462a-5bec-46af-b17a-52ae4ba00701")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 0)
+			(at 0.000001 -4.7 0)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "d5c9a1ff-bdae-4e0a-b8b4-2b571ba5295e")
@@ -710,7 +710,7 @@
 			(uuid "dd405301-a82c-412f-9b59-1ddd301015f2")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 180)
+			(at -4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -721,7 +721,7 @@
 			(uuid "0c1e5d8b-0f13-4979-bf8b-ce3cf21dd813")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 180)
+			(at 4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -732,7 +732,7 @@
 			(uuid "c1e6b7b7-8c70-419e-a531-37077415fc39")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 180)
+			(at 0 5.900002 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -746,7 +746,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "70aaccad-ae78-4482-8cfd-d97b41d5918d")
-		(at 99.493044 72.904191)
+		(at 96.558778 80.600029)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW7"
 			(at 0 2.75 360)
@@ -813,7 +813,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.500001)
-			(end 9 -8.500001)
+			(end 8.999998 -8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -822,7 +822,7 @@
 			(uuid "7d7d8b91-c5b0-42d5-ab0e-bcd8a5a75735")
 		)
 		(fp_line
-			(start -9 8.500001)
+			(start -8.999998 8.500001)
 			(end -9 -8.500001)
 			(stroke
 				(width 0.12)
@@ -832,7 +832,7 @@
 			(uuid "13cbe28f-6a6b-44b5-9e61-bc3b5eb52132")
 		)
 		(fp_line
-			(start 9 -8.500001)
+			(start 8.999998 -8.500001)
 			(end 9 8.500001)
 			(stroke
 				(width 0.12)
@@ -843,7 +843,7 @@
 		)
 		(fp_line
 			(start 9 8.500001)
-			(end -9 8.500001)
+			(end -8.999998 8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -864,7 +864,7 @@
 			(uuid "5ad9e735-827f-43c5-8225-5bd3a2d21705")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -874,7 +874,7 @@
 			(uuid "1663ef1d-74c3-4566-a041-8f67260163b9")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -884,7 +884,7 @@
 			(uuid "b8e07190-f12c-4e59-8a35-f975ade67015")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -894,7 +894,7 @@
 			(uuid "bc7641a8-c135-4b08-a32f-97fa68790389")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -906,7 +906,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -917,7 +917,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -928,7 +928,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -939,7 +939,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -988,7 +988,7 @@
 			(uuid "7ebe23af-2a14-43ec-b0ed-e0b1beedcbae")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 0)
+			(at 0.000001 -4.7 0)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "a44ca76b-5b86-413a-95a2-8d9959ad02fd")
@@ -1032,7 +1032,7 @@
 			(uuid "2366d52b-39b4-42a3-9be0-558dc2ddf49d")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 180)
+			(at -4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -1043,7 +1043,7 @@
 			(uuid "7e43fff3-4711-40e5-87ad-6996d2949375")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 180)
+			(at 4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -1054,7 +1054,7 @@
 			(uuid "eaf3d9d0-9c0c-4e2d-acd8-840d292a2b29")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 180)
+			(at 0 5.900002 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -1068,10 +1068,10 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "7c488d38-b648-428f-aac8-24960565ee5d")
-		(at 79.899974 80.7891 5)
+		(at 76.965709 88.484938 5)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW6"
-			(at 0 2.75 5)
+			(at 0.000001 2.75 5)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1ffaed31-29da-4289-ada0-658b4461fae6")
@@ -1135,7 +1135,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.5)
-			(end 9 -8.5)
+			(end 8.999999 -8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1144,7 +1144,7 @@
 			(uuid "57b244ee-310b-4094-94f7-d740255964db")
 		)
 		(fp_line
-			(start -9 8.5)
+			(start -8.999999 8.499998)
 			(end -9 -8.5)
 			(stroke
 				(width 0.12)
@@ -1154,7 +1154,7 @@
 			(uuid "fd771ad0-7b54-4b50-a73d-2f7917b9012c")
 		)
 		(fp_line
-			(start 9 -8.5)
+			(start 8.999999 -8.499998)
 			(end 9 8.5)
 			(stroke
 				(width 0.12)
@@ -1165,7 +1165,7 @@
 		)
 		(fp_line
 			(start 9 8.5)
-			(end -9 8.5)
+			(end -8.999999 8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1175,7 +1175,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -2.5 -6.275) (xy 2.5 -6.275) (xy 2.5 -3.125001) (xy -2.500001 -3.125)
+				(xy -2.5 -6.275) (xy 2.500003 -6.275) (xy 2.5 -3.125001) (xy -2.500003 -3.125)
 			)
 			(stroke
 				(width 0.1)
@@ -1186,8 +1186,8 @@
 			(uuid "d7000a9b-6d99-47ed-911a-5ca8bbca08ed")
 		)
 		(fp_line
-			(start -6.449999 -6.950001)
-			(end 6.45 -6.949999)
+			(start -6.449999 -6.949998)
+			(end 6.450002 -6.949999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1196,8 +1196,8 @@
 			(uuid "5d6d0555-3abe-48c7-abfa-e2bfe26fc107")
 		)
 		(fp_line
-			(start -6.950001 6.449999)
-			(end -6.949999 -6.45)
+			(start -6.949998 6.449999)
+			(end -6.949999 -6.450002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1206,8 +1206,8 @@
 			(uuid "1dab8723-c76f-4e89-aafb-5365d16c8459")
 		)
 		(fp_line
-			(start 6.950001 -6.449999)
-			(end 6.949999 6.45)
+			(start 6.949998 -6.449999)
+			(end 6.949999 6.450002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1216,8 +1216,8 @@
 			(uuid "50df1366-c066-4bbe-8784-5369452c68a2")
 		)
 		(fp_line
-			(start 6.449999 6.950001)
-			(end -6.45 6.949999)
+			(start 6.449999 6.949998)
+			(end -6.450002 6.949999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1226,9 +1226,9 @@
 			(uuid "af5641cb-fe67-4067-9b8c-363fac4f44b0")
 		)
 		(fp_arc
-			(start -6.949999 -6.45)
-			(mid -6.803552 -6.803553)
-			(end -6.449999 -6.950001)
+			(start -6.949999 -6.450002)
+			(mid -6.803551 -6.803553)
+			(end -6.449999 -6.949998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1237,9 +1237,9 @@
 			(uuid "d1212150-c0ae-40cc-a23c-df452c7e6975")
 		)
 		(fp_arc
-			(start -6.45 6.949999)
-			(mid -6.803553 6.803552)
-			(end -6.950001 6.449999)
+			(start -6.450002 6.949999)
+			(mid -6.803553 6.803551)
+			(end -6.949998 6.449999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1248,9 +1248,9 @@
 			(uuid "4c19c9b0-c39d-4f39-b1fa-daa0b3daddd7")
 		)
 		(fp_arc
-			(start 6.45 -6.949999)
-			(mid 6.803553 -6.803553)
-			(end 6.950001 -6.449999)
+			(start 6.450002 -6.949999)
+			(mid 6.803553 -6.803552)
+			(end 6.949998 -6.449999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1259,9 +1259,9 @@
 			(uuid "5a78499e-c113-45e8-af64-5f551e4ccdcf")
 		)
 		(fp_arc
-			(start 6.949999 6.45)
-			(mid 6.803553 6.803553)
-			(end 6.449999 6.950001)
+			(start 6.949999 6.450002)
+			(mid 6.803552 6.803553)
+			(end 6.449999 6.949998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1354,7 +1354,7 @@
 			(uuid "b2a0895e-3c51-47ae-a54d-e0cfdca5cbef")
 		)
 		(pad "1" thru_hole circle
-			(at -5.000001 3.800001 185)
+			(at -5.000001 3.799999 185)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -1365,7 +1365,7 @@
 			(uuid "20eac05c-411a-4543-b0c3-77625b053ef1")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 185)
+			(at 5.000002 3.8 185)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -1390,7 +1390,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "7c7cc748-b2b8-4d59-9235-07214e614d32")
-		(at 117.493044 96.779191)
+		(at 114.558778 104.47503)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW12"
 			(at 0 2.75 360)
@@ -1457,7 +1457,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.500001)
-			(end 9 -8.500001)
+			(end 8.999998 -8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1466,7 +1466,7 @@
 			(uuid "b8ab7845-5be3-40a2-9cb5-86da1b2fe8aa")
 		)
 		(fp_line
-			(start -9 8.500001)
+			(start -8.999998 8.500001)
 			(end -9 -8.500001)
 			(stroke
 				(width 0.12)
@@ -1476,7 +1476,7 @@
 			(uuid "6f73f55c-e553-44f4-8b0c-09dee4a1513a")
 		)
 		(fp_line
-			(start 9 -8.500001)
+			(start 8.999998 -8.500001)
 			(end 9 8.500001)
 			(stroke
 				(width 0.12)
@@ -1487,7 +1487,7 @@
 		)
 		(fp_line
 			(start 9 8.500001)
-			(end -9 8.500001)
+			(end -8.999998 8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1508,7 +1508,7 @@
 			(uuid "390cbbed-849e-4a6c-b66e-a985b9244027")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -1518,7 +1518,7 @@
 			(uuid "b0fe607e-a568-4505-a003-4509e8a1c663")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -1528,7 +1528,7 @@
 			(uuid "094df357-2953-45f3-bfdb-f3860d266d30")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -1538,7 +1538,7 @@
 			(uuid "1af01dd9-9011-4ab6-966a-f95d28c4f00a")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -1550,7 +1550,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1561,7 +1561,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1572,7 +1572,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1583,7 +1583,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1632,7 +1632,7 @@
 			(uuid "0885cc88-bfad-4cd3-aa5f-055ddfb4602f")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 0)
+			(at 0.000001 -4.7 0)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "83e166ac-b432-4dbb-a301-5552e3e43a53")
@@ -1676,7 +1676,7 @@
 			(uuid "f536a0f8-72ec-47fa-904b-0b2a04413ed8")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 180)
+			(at -4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -1687,7 +1687,7 @@
 			(uuid "c025e36c-69dd-4e94-8d26-0a4ceb0de95f")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 180)
+			(at 4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -1698,7 +1698,7 @@
 			(uuid "f2dd604d-87df-415a-962d-57ec63e25663")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 180)
+			(at 0 5.900002 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -1712,10 +1712,10 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "830d0e43-ec55-451e-80bc-ec345069b1b3")
-		(at 81.382049 97.729317 5)
+		(at 78.447784 105.425156 5)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW10"
-			(at 0 2.75 5)
+			(at 0.000001 2.75 5)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5cfad6ba-8403-45cb-94f0-1ae370157cf5")
@@ -1779,7 +1779,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.5)
-			(end 9 -8.5)
+			(end 8.999999 -8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1788,7 +1788,7 @@
 			(uuid "743c0acb-4c24-465a-abf3-f11f67fae91a")
 		)
 		(fp_line
-			(start -9 8.5)
+			(start -8.999999 8.499998)
 			(end -9 -8.5)
 			(stroke
 				(width 0.12)
@@ -1798,7 +1798,7 @@
 			(uuid "38430f19-ec00-485a-99b1-24ed22ebf239")
 		)
 		(fp_line
-			(start 9 -8.5)
+			(start 8.999999 -8.499998)
 			(end 9 8.5)
 			(stroke
 				(width 0.12)
@@ -1809,7 +1809,7 @@
 		)
 		(fp_line
 			(start 9 8.5)
-			(end -9 8.5)
+			(end -8.999999 8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1819,7 +1819,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -2.5 -6.275) (xy 2.5 -6.275) (xy 2.5 -3.125001) (xy -2.500001 -3.125)
+				(xy -2.5 -6.275) (xy 2.500003 -6.275) (xy 2.5 -3.125001) (xy -2.500003 -3.125)
 			)
 			(stroke
 				(width 0.1)
@@ -1830,8 +1830,8 @@
 			(uuid "97b470a4-22a8-4d18-9171-42dfcc186d4e")
 		)
 		(fp_line
-			(start -6.449999 -6.950001)
-			(end 6.45 -6.949999)
+			(start -6.449999 -6.949998)
+			(end 6.450002 -6.949999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1840,8 +1840,8 @@
 			(uuid "add4f06d-aac2-4974-9679-a3bf8c6df91c")
 		)
 		(fp_line
-			(start -6.950001 6.449999)
-			(end -6.949999 -6.45)
+			(start -6.949998 6.449999)
+			(end -6.949999 -6.450002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1850,8 +1850,8 @@
 			(uuid "9ed9c67e-3cbe-4756-be25-9e2ded2051f0")
 		)
 		(fp_line
-			(start 6.950001 -6.449999)
-			(end 6.949999 6.45)
+			(start 6.949998 -6.449999)
+			(end 6.949999 6.450002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1860,8 +1860,8 @@
 			(uuid "a6b67016-801e-4f19-8ab4-b16c771c9a4d")
 		)
 		(fp_line
-			(start 6.449999 6.950001)
-			(end -6.45 6.949999)
+			(start 6.449999 6.949998)
+			(end -6.450002 6.949999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1870,9 +1870,9 @@
 			(uuid "c9e3505f-20c2-42df-8640-cfa6ee0d0cb5")
 		)
 		(fp_arc
-			(start -6.949999 -6.45)
-			(mid -6.803552 -6.803553)
-			(end -6.449999 -6.950001)
+			(start -6.949999 -6.450002)
+			(mid -6.803551 -6.803553)
+			(end -6.449999 -6.949998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1881,9 +1881,9 @@
 			(uuid "aafcf7b1-d52c-440e-99a2-9734c74f9fa6")
 		)
 		(fp_arc
-			(start -6.45 6.949999)
-			(mid -6.803553 6.803552)
-			(end -6.950001 6.449999)
+			(start -6.450002 6.949999)
+			(mid -6.803553 6.803551)
+			(end -6.949998 6.449999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1892,9 +1892,9 @@
 			(uuid "1039090e-b29a-4b43-82bd-d304aba51e15")
 		)
 		(fp_arc
-			(start 6.45 -6.949999)
-			(mid 6.803553 -6.803553)
-			(end 6.950001 -6.449999)
+			(start 6.450002 -6.949999)
+			(mid 6.803553 -6.803552)
+			(end 6.949998 -6.449999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1903,9 +1903,9 @@
 			(uuid "e95e1f3c-8f38-433e-99aa-a410361018b3")
 		)
 		(fp_arc
-			(start 6.949999 6.45)
-			(mid 6.803553 6.803553)
-			(end 6.449999 6.950001)
+			(start 6.949999 6.450002)
+			(mid 6.803552 6.803553)
+			(end 6.449999 6.949998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1998,7 +1998,7 @@
 			(uuid "ce2cbc5e-3158-4eda-b232-4f738028355e")
 		)
 		(pad "1" thru_hole circle
-			(at -5.000001 3.800001 185)
+			(at -5.000001 3.799999 185)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -2009,7 +2009,7 @@
 			(uuid "db3a0833-d332-4b7e-8d25-07a601264970")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 185)
+			(at 5.000002 3.8 185)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -2034,7 +2034,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "9b04a4cd-334a-4d45-b372-4f7434ae89e2")
-		(at 99.493045 89.90419)
+		(at 96.55878 97.600028)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW11"
 			(at 0 2.75 360)
@@ -2101,7 +2101,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.500001)
-			(end 9 -8.500001)
+			(end 8.999998 -8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2110,7 +2110,7 @@
 			(uuid "5f881539-2b72-4c1e-9a86-f5793aed2695")
 		)
 		(fp_line
-			(start -9 8.500001)
+			(start -8.999998 8.500001)
 			(end -9 -8.500001)
 			(stroke
 				(width 0.12)
@@ -2120,7 +2120,7 @@
 			(uuid "f0847723-77da-4abf-876a-eee2ca67cf75")
 		)
 		(fp_line
-			(start 9 -8.500001)
+			(start 8.999998 -8.500001)
 			(end 9 8.500001)
 			(stroke
 				(width 0.12)
@@ -2131,7 +2131,7 @@
 		)
 		(fp_line
 			(start 9 8.500001)
-			(end -9 8.500001)
+			(end -8.999998 8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2152,7 +2152,7 @@
 			(uuid "8f135c70-31a8-4387-82e8-1db26e092a6a")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -2162,7 +2162,7 @@
 			(uuid "4988d2c1-d76b-4f1c-8277-646d01e7b4ab")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -2172,7 +2172,7 @@
 			(uuid "97d90226-54cc-4f9d-abb8-c79283a0db1c")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -2182,7 +2182,7 @@
 			(uuid "f9ba1d22-b3c6-4f71-a936-27c399af2381")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -2194,7 +2194,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2205,7 +2205,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2216,7 +2216,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2227,7 +2227,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2276,7 +2276,7 @@
 			(uuid "df95b246-751c-4d41-956a-733a426b01cc")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 0)
+			(at 0.000001 -4.7 0)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "aa08e292-e2aa-4f18-aaf0-c32f506d60fc")
@@ -2320,7 +2320,7 @@
 			(uuid "27c8e13e-3516-411c-b471-a3cee41228bb")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 180)
+			(at -4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -2331,7 +2331,7 @@
 			(uuid "ad71c092-abe8-4ecf-9ebb-bd0a94230168")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 180)
+			(at 4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -2342,7 +2342,7 @@
 			(uuid "efeef610-458b-44e0-851c-99af3b2bd77e")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 180)
+			(at 0 5.900002 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2356,7 +2356,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "aac54eee-7c5c-43f1-b175-624e8301f666")
-		(at 117.493046 62.774192)
+		(at 114.558781 70.470028)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW3"
 			(at 0 2.75 360)
@@ -2423,7 +2423,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.500001)
-			(end 9 -8.500001)
+			(end 8.999998 -8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2432,7 +2432,7 @@
 			(uuid "85292a49-617a-4b31-baa9-9d3bf6c52843")
 		)
 		(fp_line
-			(start -9 8.500001)
+			(start -8.999998 8.500001)
 			(end -9 -8.500001)
 			(stroke
 				(width 0.12)
@@ -2442,7 +2442,7 @@
 			(uuid "36aa9003-c20f-4749-b4ba-43440cd9890f")
 		)
 		(fp_line
-			(start 9 -8.500001)
+			(start 8.999998 -8.500001)
 			(end 9 8.500001)
 			(stroke
 				(width 0.12)
@@ -2453,7 +2453,7 @@
 		)
 		(fp_line
 			(start 9 8.500001)
-			(end -9 8.500001)
+			(end -8.999998 8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2474,7 +2474,7 @@
 			(uuid "82573ffc-0aa0-46ed-bfcd-bf8abd348244")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -2484,7 +2484,7 @@
 			(uuid "3e5cc073-3dee-4a2d-95da-6f300ecca641")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -2494,7 +2494,7 @@
 			(uuid "f12c03cf-eabb-4880-8c13-f181b64eec59")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -2504,7 +2504,7 @@
 			(uuid "23634b6e-a343-467e-a220-c39c74830014")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -2516,7 +2516,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2527,7 +2527,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2538,7 +2538,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2549,7 +2549,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2598,7 +2598,7 @@
 			(uuid "09983e26-3b67-4cff-b52d-41962d837ad8")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 0)
+			(at 0.000001 -4.7 0)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "78ec8b3e-5fca-47a1-9d59-e5731ecc9679")
@@ -2642,7 +2642,7 @@
 			(uuid "89fe6091-f90f-4734-a7f9-e3f66e29c6c7")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 180)
+			(at -4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -2653,7 +2653,7 @@
 			(uuid "bce45b03-bb82-4092-94a2-968a078b1638")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 180)
+			(at 4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -2664,7 +2664,7 @@
 			(uuid "b8dbfe9a-dda2-4fba-b672-bba99870f037")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 180)
+			(at 0 5.900002 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2678,7 +2678,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "c54e666b-f808-4d36-af32-fb41aa72e6b2")
-		(at 61.907047 97.2355 15)
+		(at 58.972781 104.931337 15)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW5"
 			(at 0 2.75 15)
@@ -2744,8 +2744,8 @@
 		(sheetfile "hyperpotato.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
-			(start -8.999999 -8.5)
-			(end 9 -8.5)
+			(start -8.999999 -8.499998)
+			(end 9.000002 -8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2754,8 +2754,8 @@
 			(uuid "9b1391c0-db8d-421c-b12e-d1aa80dc2855")
 		)
 		(fp_line
-			(start -9 8.5)
-			(end -8.999999 -8.5)
+			(start -9.000002 8.499998)
+			(end -8.999999 -8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2764,8 +2764,8 @@
 			(uuid "13bf8b9f-e8b8-42c2-8c36-d6d34875d5fa")
 		)
 		(fp_line
-			(start 9 -8.5)
-			(end 8.999999 8.5)
+			(start 9.000002 -8.499998)
+			(end 8.999999 8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2774,8 +2774,8 @@
 			(uuid "ede3f63c-ad77-474f-ab57-d2d0df8cf52c")
 		)
 		(fp_line
-			(start 8.999999 8.5)
-			(end -9 8.5)
+			(start 8.999999 8.499998)
+			(end -9.000002 8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2797,7 +2797,7 @@
 		)
 		(fp_line
 			(start -6.45 -6.95)
-			(end 6.449999 -6.949999)
+			(end 6.45 -6.949997)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2807,7 +2807,7 @@
 		)
 		(fp_line
 			(start -6.95 6.45)
-			(end -6.949999 -6.449999)
+			(end -6.949997 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2817,7 +2817,7 @@
 		)
 		(fp_line
 			(start 6.95 -6.45)
-			(end 6.949999 6.449999)
+			(end 6.949997 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2827,7 +2827,7 @@
 		)
 		(fp_line
 			(start 6.45 6.95)
-			(end -6.449999 6.949999)
+			(end -6.45 6.949997)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2836,8 +2836,8 @@
 			(uuid "11599c6b-660d-48ba-b959-3ac20b3316d5")
 		)
 		(fp_arc
-			(start -6.949999 -6.449999)
-			(mid -6.803552 -6.803552)
+			(start -6.949997 -6.45)
+			(mid -6.80355 -6.803551)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -2847,8 +2847,8 @@
 			(uuid "1ebc7470-ebd3-4412-9862-3adbc882fa8a")
 		)
 		(fp_arc
-			(start -6.449999 6.949999)
-			(mid -6.803552 6.803552)
+			(start -6.45 6.949997)
+			(mid -6.803551 6.80355)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -2858,7 +2858,7 @@
 			(uuid "5fa6454b-34a8-4d07-ab60-e4942e044a5c")
 		)
 		(fp_arc
-			(start 6.449999 -6.949999)
+			(start 6.45 -6.949997)
 			(mid 6.803552 -6.803552)
 			(end 6.95 -6.45)
 			(stroke
@@ -2869,7 +2869,7 @@
 			(uuid "8d83a6d8-352b-4467-a3ab-0f3562b267fd")
 		)
 		(fp_arc
-			(start 6.949999 6.449999)
+			(start 6.949997 6.45)
 			(mid 6.803552 6.803552)
 			(end 6.45 6.95)
 			(stroke
@@ -2880,8 +2880,8 @@
 			(uuid "8514dabc-203e-402d-b09d-44090a77aa57")
 		)
 		(fp_line
-			(start -7 -7)
-			(end 7 -7)
+			(start -6.999999 -6.999999)
+			(end 6.999999 -6.999999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2890,8 +2890,8 @@
 			(uuid "4f36c034-1c99-4065-b153-fd4b1c3206d1")
 		)
 		(fp_line
-			(start -7 7)
-			(end -7 -7)
+			(start -6.999999 6.999999)
+			(end -6.999999 -6.999999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2900,8 +2900,8 @@
 			(uuid "f1bacc54-65d0-4a18-b202-4f15fd5d6827")
 		)
 		(fp_line
-			(start 7 -7)
-			(end 7 7)
+			(start 6.999999 -6.999999)
+			(end 6.999999 6.999999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2910,8 +2910,8 @@
 			(uuid "9f0922c4-3e0f-46f3-8de2-120628e00864")
 		)
 		(fp_line
-			(start 7 7)
-			(end -7 7)
+			(start 6.999999 6.999999)
+			(end -6.999999 6.999999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2986,7 +2986,7 @@
 			(uuid "d02e3e24-e3ae-4760-8b90-3ecb75c4790a")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 195)
+			(at 0 5.899998 195)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -3000,7 +3000,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "ce87d1b6-2772-4664-a6d9-c876758c26a5")
-		(at 135.493046 84.024191)
+		(at 132.558779 91.72003)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW9"
 			(at 0 2.75 360)
@@ -3067,7 +3067,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.500001)
-			(end 9 -8.500001)
+			(end 8.999998 -8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3076,7 +3076,7 @@
 			(uuid "6ed0b1a5-26f3-4446-9397-3a3cf8798f12")
 		)
 		(fp_line
-			(start -9 8.500001)
+			(start -8.999998 8.500001)
 			(end -9 -8.500001)
 			(stroke
 				(width 0.12)
@@ -3086,7 +3086,7 @@
 			(uuid "f9957257-f61a-47ec-8baa-3bc43754605f")
 		)
 		(fp_line
-			(start 9 -8.500001)
+			(start 8.999998 -8.500001)
 			(end 9 8.500001)
 			(stroke
 				(width 0.12)
@@ -3097,7 +3097,7 @@
 		)
 		(fp_line
 			(start 9 8.500001)
-			(end -9 8.500001)
+			(end -8.999998 8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3118,7 +3118,7 @@
 			(uuid "75b3e9bf-a0d6-445c-b504-c791b6103132")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -3128,7 +3128,7 @@
 			(uuid "304ff2cb-2426-4607-a6ed-df5106ba7724")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -3138,7 +3138,7 @@
 			(uuid "14b4bc30-515f-49c2-919a-e2cebd658bf7")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -3148,7 +3148,7 @@
 			(uuid "5e15588a-ca21-4bc5-bf4f-215e9f847453")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -3160,7 +3160,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3171,7 +3171,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3182,7 +3182,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3193,7 +3193,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3242,7 +3242,7 @@
 			(uuid "4694b241-bdcf-4e87-b5c5-f25209bf2fc2")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 0)
+			(at 0.000001 -4.7 0)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "c27812c6-59fa-4744-97f3-1d62155a6317")
@@ -3286,7 +3286,7 @@
 			(uuid "2bb9ce00-2416-469a-9534-2e2e1d49d571")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 180)
+			(at -4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -3297,7 +3297,7 @@
 			(uuid "9e2af9ab-2504-48b5-8213-1ae6800ad7f2")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 180)
+			(at 4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -3308,7 +3308,7 @@
 			(uuid "fa336254-2ab0-47ca-9067-1b61ebb85bbc")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 180)
+			(at 0 5.900002 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -3322,10 +3322,10 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "cf1e7c0a-c6a5-4407-810f-ff5adcbddd5f")
-		(at 78.418384 63.853777 5)
+		(at 75.484118 71.549616 5)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW1"
-			(at 0 2.75 5)
+			(at 0.000001 2.75 5)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b2f5b6de-f6b4-4280-a095-5491c4531fad")
@@ -3389,7 +3389,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.5)
-			(end 9 -8.5)
+			(end 8.999999 -8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3398,7 +3398,7 @@
 			(uuid "1620a1ca-bc0b-4115-a22d-b1331416df68")
 		)
 		(fp_line
-			(start -9 8.5)
+			(start -8.999999 8.499998)
 			(end -9 -8.5)
 			(stroke
 				(width 0.12)
@@ -3408,7 +3408,7 @@
 			(uuid "fd3e35aa-4b3e-4197-97c5-8823a44e4419")
 		)
 		(fp_line
-			(start 9 -8.5)
+			(start 8.999999 -8.499998)
 			(end 9 8.5)
 			(stroke
 				(width 0.12)
@@ -3419,7 +3419,7 @@
 		)
 		(fp_line
 			(start 9 8.5)
-			(end -9 8.5)
+			(end -8.999999 8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3429,7 +3429,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -2.5 -6.275) (xy 2.5 -6.275) (xy 2.5 -3.125001) (xy -2.500001 -3.125)
+				(xy -2.5 -6.275) (xy 2.500003 -6.275) (xy 2.5 -3.125001) (xy -2.500003 -3.125)
 			)
 			(stroke
 				(width 0.1)
@@ -3440,8 +3440,8 @@
 			(uuid "fe35f0a1-fa98-46d6-b330-c541900ba3c6")
 		)
 		(fp_line
-			(start -6.449999 -6.950001)
-			(end 6.45 -6.949999)
+			(start -6.449999 -6.949998)
+			(end 6.450002 -6.949999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3450,8 +3450,8 @@
 			(uuid "48d8a0fa-7938-4028-839d-7dcedcae0a10")
 		)
 		(fp_line
-			(start -6.950001 6.449999)
-			(end -6.949999 -6.45)
+			(start -6.949998 6.449999)
+			(end -6.949999 -6.450002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3460,8 +3460,8 @@
 			(uuid "1def3e39-e808-4e70-881e-d0ad9d910f67")
 		)
 		(fp_line
-			(start 6.950001 -6.449999)
-			(end 6.949999 6.45)
+			(start 6.949998 -6.449999)
+			(end 6.949999 6.450002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3470,8 +3470,8 @@
 			(uuid "9c385a58-ca3a-44cf-b55e-4e9e9ed93ba0")
 		)
 		(fp_line
-			(start 6.449999 6.950001)
-			(end -6.45 6.949999)
+			(start 6.449999 6.949998)
+			(end -6.450002 6.949999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3480,9 +3480,9 @@
 			(uuid "a91f7d28-ccfe-41bb-86df-0f128d22c428")
 		)
 		(fp_arc
-			(start -6.949999 -6.45)
-			(mid -6.803552 -6.803553)
-			(end -6.449999 -6.950001)
+			(start -6.949999 -6.450002)
+			(mid -6.803551 -6.803553)
+			(end -6.449999 -6.949998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3491,9 +3491,9 @@
 			(uuid "c2643aad-1eda-4459-86a3-b7fcc6f0f0ab")
 		)
 		(fp_arc
-			(start -6.45 6.949999)
-			(mid -6.803553 6.803552)
-			(end -6.950001 6.449999)
+			(start -6.450002 6.949999)
+			(mid -6.803553 6.803551)
+			(end -6.949998 6.449999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3502,9 +3502,9 @@
 			(uuid "85e17b30-0123-4050-815e-9748f5add217")
 		)
 		(fp_arc
-			(start 6.45 -6.949999)
-			(mid 6.803553 -6.803553)
-			(end 6.950001 -6.449999)
+			(start 6.450002 -6.949999)
+			(mid 6.803553 -6.803552)
+			(end 6.949998 -6.449999)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3513,9 +3513,9 @@
 			(uuid "770ee197-a855-4dd9-83af-8754780d762f")
 		)
 		(fp_arc
-			(start 6.949999 6.45)
-			(mid 6.803553 6.803553)
-			(end 6.449999 6.950001)
+			(start 6.949999 6.450002)
+			(mid 6.803552 6.803553)
+			(end 6.449999 6.949998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3608,7 +3608,7 @@
 			(uuid "863f9ca4-f0bc-4088-baa8-c3c35cc2ad6e")
 		)
 		(pad "1" thru_hole circle
-			(at -5.000001 3.800001 185)
+			(at -5.000001 3.799999 185)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -3619,7 +3619,7 @@
 			(uuid "b12bcb97-918c-47fd-8c80-db4be1940360")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 185)
+			(at 5.000002 3.8 185)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -3644,7 +3644,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1.5u"
 		(layer "F.Cu")
 		(uuid "d2f196e1-dba3-4a80-a1b9-44f6c33a02ce")
-		(at 148.993045 122.725362 -90)
+		(at 146.058779 130.4212 -90)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW13"
 			(at 0 2.75 90)
@@ -3710,8 +3710,8 @@
 		(sheetfile "hyperpotato.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
-			(start -13.5 8.5)
-			(end -13.5 -8.5)
+			(start -13.5 8.499998)
+			(end -13.500001 -8.499997)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3720,8 +3720,8 @@
 			(uuid "1cac2a15-8aa9-4ca8-81ee-b055f1cc5857")
 		)
 		(fp_line
-			(start 13.5 8.5)
-			(end -13.5 8.5)
+			(start 13.500001 8.499997)
+			(end -13.5 8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3730,8 +3730,8 @@
 			(uuid "02591416-bea1-461f-92a7-125770934b23")
 		)
 		(fp_line
-			(start -13.5 -8.5)
-			(end 13.5 -8.5)
+			(start -13.500001 -8.499997)
+			(end 13.5 -8.499998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3740,8 +3740,8 @@
 			(uuid "7d794b15-c10c-4171-8789-e1eaea99bb9f")
 		)
 		(fp_line
-			(start 13.5 -8.5)
-			(end 13.5 8.5)
+			(start 13.5 -8.499998)
+			(end 13.500001 8.499997)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3762,7 +3762,7 @@
 			(uuid "b0c25609-cb31-437b-8e41-3e4e60ee24b3")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -3772,7 +3772,7 @@
 			(uuid "0abeceeb-cdca-4239-adff-4e99e3150c48")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -3782,7 +3782,7 @@
 			(uuid "dd33fc4a-9fd3-4ee8-b37a-e86ad699a9a7")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -3792,7 +3792,7 @@
 			(uuid "4f1a8c7e-f86d-4288-8af6-6f1f3c7958ad")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -3804,7 +3804,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3815,7 +3815,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3826,7 +3826,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3837,7 +3837,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3886,7 +3886,7 @@
 			(uuid "a09a7691-b7ec-4b63-b8c4-1ef3634e181c")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 -90)
+			(at 0.000001 -4.7 -90)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "f201ac75-5fc4-4903-8558-41d9f7303028")
@@ -3930,7 +3930,7 @@
 			(uuid "8222bfbe-1b99-4957-8a03-b881d0d07a73")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 90)
+			(at -4.999999 3.8 90)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -3941,7 +3941,7 @@
 			(uuid "65edd3a1-0e9f-43d5-912a-802c207f4214")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 90)
+			(at 4.999999 3.8 90)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -3952,7 +3952,7 @@
 			(uuid "4413e6fd-131a-4b12-a5b4-412eab7a2111")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 90)
+			(at 0 5.900002 90)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -3966,7 +3966,7 @@
 	(footprint "ssbb_parts:SW_choc_v1_reversible_1u"
 		(layer "F.Cu")
 		(uuid "de01bc8b-704f-49fb-9b54-e037e336349c")
-		(at 99.493045 55.91419)
+		(at 96.558779 63.610028)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW2"
 			(at 0 2.75 360)
@@ -4033,7 +4033,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9 -8.500001)
-			(end 9 -8.500001)
+			(end 8.999998 -8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4042,7 +4042,7 @@
 			(uuid "5f313a48-d5bd-45a6-a85f-96637aa48946")
 		)
 		(fp_line
-			(start -9 8.500001)
+			(start -8.999998 8.500001)
 			(end -9 -8.500001)
 			(stroke
 				(width 0.12)
@@ -4052,7 +4052,7 @@
 			(uuid "406babd3-e32f-4f8e-a5db-691b9e7332ea")
 		)
 		(fp_line
-			(start 9 -8.500001)
+			(start 8.999998 -8.500001)
 			(end 9 8.500001)
 			(stroke
 				(width 0.12)
@@ -4063,7 +4063,7 @@
 		)
 		(fp_line
 			(start 9 8.500001)
-			(end -9 8.500001)
+			(end -8.999998 8.500001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4084,7 +4084,7 @@
 			(uuid "af3516d9-5d1b-4e1c-b860-b060e3fd012b")
 		)
 		(fp_line
-			(start -6.95 6.45)
+			(start -6.950002 6.45)
 			(end -6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -4094,7 +4094,7 @@
 			(uuid "aa7f9800-a325-4fad-9519-afa0a0855772")
 		)
 		(fp_line
-			(start -6.45 -6.95)
+			(start -6.45 -6.950002)
 			(end 6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -4104,7 +4104,7 @@
 			(uuid "c7f5a1e6-023d-4314-a56a-0fdfe0eb1d2e")
 		)
 		(fp_line
-			(start 6.45 6.95)
+			(start 6.45 6.950002)
 			(end -6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -4114,7 +4114,7 @@
 			(uuid "08586aca-c6b7-4fad-a694-c936b1cd502d")
 		)
 		(fp_line
-			(start 6.95 -6.45)
+			(start 6.950002 -6.45)
 			(end 6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -4126,7 +4126,7 @@
 		(fp_arc
 			(start -6.95 -6.45)
 			(mid -6.803553 -6.803553)
-			(end -6.45 -6.95)
+			(end -6.45 -6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4137,7 +4137,7 @@
 		(fp_arc
 			(start -6.45 6.95)
 			(mid -6.803553 6.803553)
-			(end -6.95 6.45)
+			(end -6.950002 6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4148,7 +4148,7 @@
 		(fp_arc
 			(start 6.45 -6.95)
 			(mid 6.803553 -6.803553)
-			(end 6.95 -6.45)
+			(end 6.950002 -6.45)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4159,7 +4159,7 @@
 		(fp_arc
 			(start 6.95 6.45)
 			(mid 6.803553 6.803553)
-			(end 6.45 6.95)
+			(end 6.45 6.950002)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4208,7 +4208,7 @@
 			(uuid "1772422a-45f6-4753-85cb-2120aa230248")
 		)
 		(fp_text user "LED"
-			(at 0 -4.7 0)
+			(at 0.000001 -4.7 0)
 			(unlocked yes)
 			(layer "Cmts.User")
 			(uuid "a0277047-b584-4e1a-843a-5c92df25b304")
@@ -4252,7 +4252,7 @@
 			(uuid "e4011633-74b7-4cf6-9e06-f0825ea60aab")
 		)
 		(pad "1" thru_hole circle
-			(at -5 3.8 180)
+			(at -4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "B.Mask")
@@ -4263,7 +4263,7 @@
 			(uuid "7a9bcc8c-3290-4d52-a748-17827ebf2455")
 		)
 		(pad "1" thru_hole circle
-			(at 5 3.8 180)
+			(at 4.999999 3.8 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -4274,7 +4274,7 @@
 			(uuid "c28da53e-24d4-4621-a470-293a89a06f32")
 		)
 		(pad "2" thru_hole circle
-			(at 0 5.9 180)
+			(at 0 5.900002 180)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -4285,10 +4285,32 @@
 			(uuid "6c1c1f26-8f74-4782-9fd0-ea110e303a90")
 		)
 	)
+	(gr_curve
+		(pts
+			(xy 55.45271 130.432312) (xy 58.0409 140.09157) (xy 64.334997 144.921198) (xy 74.334997 144.921198)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "09643b5a-841d-4313-9e26-8c02deafb96b")
+	)
+	(gr_curve
+		(pts
+			(xy 119.907723 51.27604) (xy 124.888697 50.840263) (xy 129.146953 52.390141) (xy 132.682486 55.925674)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "14e411b8-15de-46e1-be35-a58acaed6adf")
+	)
 	(gr_arc
-		(start 158.493047 134.225364)
-		(mid 157.614354 136.346672)
-		(end 155.493046 137.225364)
+		(start 155.558783 141.921201)
+		(mid 154.680089 144.042511)
+		(end 152.558779 144.921202)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -4297,8 +4319,8 @@
 		(uuid "286052d1-e29e-4240-b64d-c778b5918bf5")
 	)
 	(gr_line
-		(start 158.493047 134.225364)
-		(end 158.491518 71.106011)
+		(start 155.558783 141.921201)
+		(end 155.557254 86.301849)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -4306,9 +4328,20 @@
 		(layer "Edge.Cuts")
 		(uuid "2d6b133a-401e-4216-8c8b-cb426d04ac0d")
 	)
+	(gr_curve
+		(pts
+			(xy 40.086951 73.087999) (xy 37.74488 64.347272) (xy 41.185638 58.163334) (xy 51.147585 57.291777)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4c203227-5007-44c0-aca6-799aebd3b2ec")
+	)
 	(gr_line
-		(start 155.493046 137.225364)
-		(end 62.269261 137.225363)
+		(start 152.558779 144.921202)
+		(end 74.334997 144.921198)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -4317,8 +4350,8 @@
 		(uuid "6c53a59a-912c-4338-9075-037f95a29ad2")
 	)
 	(gr_line
-		(start 39.13893 50.903274)
-		(end 130.31345 42.926536)
+		(start 51.147585 57.291777)
+		(end 119.907723 51.27604)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -4326,9 +4359,20 @@
 		(layer "Edge.Cuts")
 		(uuid "7c949f46-ce85-4272-ae3b-9584efca0771")
 	)
+	(gr_curve
+		(pts
+			(xy 150.253954 73.498547) (xy 153.789487 77.034079) (xy 155.557253 81.301848) (xy 155.557254 86.301849)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9742eabf-01aa-40d0-bfde-99f5c554c05c")
+	)
 	(gr_line
-		(start 62.269261 137.225363)
-		(end 39.13893 50.903274)
+		(start 55.45271 130.432312)
+		(end 40.086951 73.087999)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -4337,13 +4381,61 @@
 		(uuid "df4bc12d-b0e0-4f5c-b346-e92a692d8819")
 	)
 	(gr_line
-		(start 158.491518 71.106011)
-		(end 130.31345 42.926536)
+		(start 150.253954 73.498547)
+		(end 132.682486 55.925674)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "e018787c-7623-45ec-874a-791f6131630b")
+	)
+	(gr_text "15mm offset"
+		(at 54.334997 134.921198 105)
+		(layer "User.1")
+		(uuid "42b4cbe4-2eeb-40fa-ba3a-ac3549e90376")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "7.5mm offset"
+		(at 111.334997 49.921198 5)
+		(layer "User.1")
+		(uuid "8e7d04c1-3720-405e-8b6c-5d3b61ab1aac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "15mm offset"
+		(at 48.334997 55.921198 5)
+		(layer "User.1")
+		(uuid "990d26c9-b978-42ec-abd4-35dd96060a2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3mm offset"
+		(at 144.334997 147.921198 0)
+		(layer "User.1")
+		(uuid "de1988f1-7fc7-4bb2-abd6-55af47644639")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 )
