@@ -399,7 +399,7 @@
 			(uuid "45690e7f-586c-4d76-b25f-3a0f25a44f6d")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 175)
+			(at 4.999999 3.799998 175)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -721,7 +721,7 @@
 			(uuid "0c1e5d8b-0f13-4979-bf8b-ce3cf21dd813")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 175)
+			(at 4.999999 3.799998 175)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -1043,7 +1043,7 @@
 			(uuid "7e43fff3-4711-40e5-87ad-6996d2949375")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 175)
+			(at 4.999999 3.799998 175)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -1227,7 +1227,7 @@
 		)
 		(fp_arc
 			(start -6.949999 -6.450002)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803553)
 			(end -6.449998 -6.949998)
 			(stroke
 				(width 0.05)
@@ -1238,7 +1238,7 @@
 		)
 		(fp_arc
 			(start -6.450002 6.949999)
-			(mid -6.803554 6.80355)
+			(mid -6.803553 6.803551)
 			(end -6.949998 6.449998)
 			(stroke
 				(width 0.05)
@@ -1687,7 +1687,7 @@
 			(uuid "c025e36c-69dd-4e94-8d26-0a4ceb0de95f")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 175)
+			(at 4.999999 3.799998 175)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -1871,7 +1871,7 @@
 		)
 		(fp_arc
 			(start -6.949999 -6.450002)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803553)
 			(end -6.449998 -6.949998)
 			(stroke
 				(width 0.05)
@@ -1882,7 +1882,7 @@
 		)
 		(fp_arc
 			(start -6.450002 6.949999)
-			(mid -6.803554 6.80355)
+			(mid -6.803553 6.803551)
 			(end -6.949998 6.449998)
 			(stroke
 				(width 0.05)
@@ -2331,7 +2331,7 @@
 			(uuid "ad71c092-abe8-4ecf-9ebb-bd0a94230168")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 175)
+			(at 4.999999 3.799998 175)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -2653,7 +2653,7 @@
 			(uuid "bce45b03-bb82-4092-94a2-968a078b1638")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 175)
+			(at 4.999999 3.799998 175)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -2859,7 +2859,7 @@
 		)
 		(fp_arc
 			(start 6.449999 -6.949996)
-			(mid 6.803553 -6.803552)
+			(mid 6.80355 -6.803551)
 			(end 6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -2870,7 +2870,7 @@
 		)
 		(fp_arc
 			(start 6.949996 6.449999)
-			(mid 6.803552 6.803553)
+			(mid 6.803551 6.80355)
 			(end 6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -3297,7 +3297,7 @@
 			(uuid "9e2af9ab-2504-48b5-8213-1ae6800ad7f2")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 175)
+			(at 4.999999 3.799998 175)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -3481,7 +3481,7 @@
 		)
 		(fp_arc
 			(start -6.949999 -6.450002)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803553)
 			(end -6.449998 -6.949998)
 			(stroke
 				(width 0.05)
@@ -3492,7 +3492,7 @@
 		)
 		(fp_arc
 			(start -6.450002 6.949999)
-			(mid -6.803554 6.80355)
+			(mid -6.803553 6.803551)
 			(end -6.949998 6.449998)
 			(stroke
 				(width 0.05)
@@ -3941,7 +3941,7 @@
 			(uuid "65edd3a1-0e9f-43d5-912a-802c207f4214")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 85)
+			(at 4.999999 3.799998 85)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -4263,7 +4263,7 @@
 			(uuid "7a9bcc8c-3290-4d52-a748-17827ebf2455")
 		)
 		(pad "1" thru_hole circle
-			(at 4.999999 3.799999 175)
+			(at 4.999999 3.799998 175)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "F.Mask")
@@ -4288,7 +4288,7 @@
 	(footprint "PCM_marbastlib-xp-promicroish:Xiao_nRF52840_AC_Reflow"
 		(layer "F.Cu")
 		(uuid "e8df1a1a-b9d2-42eb-9ff7-3cad3b5c4fcf")
-		(at 57.334997 64.493698)
+		(at 57.604997 64.703698)
 		(descr "Footprint for Elite-C controllers, through hole and castellated pads")
 		(property "Reference" "REF**"
 			(at -6.5 11.65 0)
