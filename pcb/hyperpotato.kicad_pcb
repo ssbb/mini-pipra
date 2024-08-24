@@ -137,7 +137,7 @@
 		(at 181.573907 61.523053)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW14"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "2049d569-51fe-4986-b5b3-5fb973fc2195")
 			(effects
@@ -148,7 +148,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 0 4.249999 360)
+			(at 0 4.249999 0)
 			(layer "F.Fab")
 			(uuid "f73018f5-2efa-441e-b65f-96d218034273")
 			(effects
@@ -762,7 +762,7 @@
 			(uuid "c652efc4-56d4-41cd-9e2f-011b5cd19cdc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "6d4b8ce7-2e9d-4077-ae3f-24e03bade6fe")
 			(effects
@@ -2146,7 +2146,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:ELV1411A_reversible"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc9f74b4-f01e-4634-b316-4c791fa45e33")
@@ -2158,7 +2158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "493702e6-6dd2-4675-abab-60665c8344da")
@@ -2170,7 +2170,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1107374c-f2f7-471e-a1d3-c71d964b65bc")
@@ -2574,7 +2574,7 @@
 		(descr "VSSOP, 10 Pin (http://www.ti.com/lit/ds/symlink/ads1115.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "VSSOP SO")
 		(property "Reference" "U4"
-			(at 0 -2.45 360)
+			(at 0 -2.45 0)
 			(layer "F.SilkS")
 			(uuid "2c5a62e7-e53b-4e70-8456-f0ea14a0fc67")
 			(effects
@@ -2585,7 +2585,7 @@
 			)
 		)
 		(property "Value" "DRV2605LDGS"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "67bae0b5-183c-43a0-89d7-761a966d37d1")
 			(effects
@@ -2782,7 +2782,7 @@
 			(uuid "c2d02577-db94-4ea9-9803-a831667ec336")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "260975cd-bde9-4e8d-bce8-7b37b1d673f9")
 			(effects
@@ -3311,7 +3311,7 @@
 		(at 133.77141 76.518055)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW4"
-			(at 0 2.75 360)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0c0c44e8-6f81-4198-b339-2eaf57c4d591")
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a774674b-2218-4acd-aa5f-ced9adbb7d59")
 			(effects
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6dc9d238-5806-4230-98ed-b051a6d5cc08")
@@ -3346,7 +3346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8bad901c-29a3-40eb-a1ea-d8fe0ada197a")
@@ -3358,7 +3358,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d315e2ce-bd44-47eb-968b-063ce4da67cb")
@@ -3562,7 +3562,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "16513466-a6ad-44c9-bc56-e6828fd0676a")
 			(effects
@@ -3633,7 +3633,7 @@
 		(at 115.771415 89.268053)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW8"
-			(at 0 2.75 360)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "23318fd4-705a-4172-b638-29a55961de3d")
@@ -3645,7 +3645,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "411dbb19-d4c5-4700-85b9-8a166331268b")
 			(effects
@@ -3656,7 +3656,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9744acdb-64cc-4155-835a-1b53da48e16d")
@@ -3668,7 +3668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a5ae275-2534-4b94-a588-d87b94c9784d")
@@ -3680,7 +3680,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0b9c465-6bc4-43d2-a7e9-9470b6883fce")
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "42a50ea8-b6dd-4943-b5cc-b419b0d7c800")
 			(effects
@@ -4357,7 +4357,7 @@
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH top entry")
 		(property "Reference" "J1"
-			(at 1.000001 -2.55 360)
+			(at 1.000001 -2.55 0)
 			(layer "F.SilkS")
 			(uuid "b7486ff6-d30d-406e-867e-e45b12c66081")
 			(effects
@@ -4368,7 +4368,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 1 7.45 360)
+			(at 1 7.45 0)
 			(layer "F.Fab")
 			(uuid "52520392-aeab-4dba-a5e4-23008adc9294")
 			(effects
@@ -5223,7 +5223,7 @@
 			(uuid "b20647c6-7cdb-4599-9847-0c4024d187cc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 2.499999 360)
+			(at 1 2.499999 0)
 			(layer "F.Fab")
 			(uuid "da3b8d31-16b3-42ac-944c-5bbb34360ab1")
 			(effects
@@ -5275,7 +5275,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "3e6f076a-ce27-4687-a240-e0b044e02617")
 			(effects
@@ -5286,7 +5286,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "39c09e6d-3698-4912-82ec-478d1ed859b2")
 			(effects
@@ -5541,7 +5541,7 @@
 			(uuid "245d28fc-12bf-4197-802d-683f91365172")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b23297d4-ca2e-4e8b-901b-c9b8a9ade74b")
 			(effects
@@ -6267,7 +6267,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.649999 360)
+			(at 0 -1.649999 0)
 			(layer "F.SilkS")
 			(uuid "0dd69da9-66e2-4f60-b76f-63a183df1f76")
 			(effects
@@ -6278,7 +6278,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at 0 1.649999 360)
+			(at 0 1.649999 0)
 			(layer "F.Fab")
 			(uuid "6fae054d-54a1-4504-980d-25857334bda8")
 			(effects
@@ -6446,7 +6446,7 @@
 			(uuid "a11fda14-7719-487f-b820-f5e398a735f8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "951d43ba-0aad-40d9-b15b-9bf77a38523a")
 			(effects
@@ -6492,7 +6492,7 @@
 		(at 97.771409 82.398056)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW7"
-			(at 0 2.75 360)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0054d4d3-4e6c-4961-a5c4-5a1173691cc4")
@@ -6504,7 +6504,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "05968264-e5db-4241-8e0f-38b8e8e5d7fe")
 			(effects
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59eea759-e5aa-42dc-94bd-b2f14e43f848")
@@ -6527,7 +6527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69beab85-30dc-42a1-976d-9dd715148965")
@@ -6539,7 +6539,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d79f853b-ed4a-4ff6-af1c-a2fa3d3aaf0d")
@@ -6743,7 +6743,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "57824a13-c90c-45aa-b1ae-b0dd7600de2a")
 			(effects
@@ -7371,7 +7371,7 @@
 		)
 		(fp_arc
 			(start -6.95 -6.450001)
-			(mid -6.803553 -6.803554)
+			(mid -6.803553 -6.803553)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -7382,7 +7382,7 @@
 		)
 		(fp_arc
 			(start -6.450001 6.95)
-			(mid -6.803554 6.803553)
+			(mid -6.803553 6.803553)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -7393,7 +7393,7 @@
 		)
 		(fp_arc
 			(start 6.450001 -6.95)
-			(mid 6.803554 -6.803554)
+			(mid 6.803553 -6.803553)
 			(end 6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -7404,7 +7404,7 @@
 		)
 		(fp_arc
 			(start 6.95 6.450001)
-			(mid 6.803554 6.803554)
+			(mid 6.803553 6.803553)
 			(end 6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -7537,7 +7537,7 @@
 		(at 115.771409 106.273058)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW12"
-			(at 0 2.75 360)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cc7cfa01-6351-4526-8ea1-735bdf4aa8f6")
@@ -7549,7 +7549,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "608a2e99-7433-4919-9994-30e9a1c347c1")
 			(effects
@@ -7560,7 +7560,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eaa9e51a-45c3-4839-ade0-046a133cb315")
@@ -7572,7 +7572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3dfb4829-02c4-4351-ad5c-8f78df4e5450")
@@ -7584,7 +7584,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "522fd4cd-bbf4-44d3-9138-4d78bc3caf82")
@@ -7788,7 +7788,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "e73c9f29-29a3-4642-a048-416b5fe6eb4b")
 			(effects
@@ -8416,7 +8416,7 @@
 		)
 		(fp_arc
 			(start -6.95 -6.450001)
-			(mid -6.803553 -6.803554)
+			(mid -6.803553 -6.803553)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -8427,7 +8427,7 @@
 		)
 		(fp_arc
 			(start -6.450001 6.95)
-			(mid -6.803554 6.803553)
+			(mid -6.803553 6.803553)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -8438,7 +8438,7 @@
 		)
 		(fp_arc
 			(start 6.450001 -6.95)
-			(mid 6.803554 -6.803554)
+			(mid 6.803553 -6.803553)
 			(end 6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -8449,7 +8449,7 @@
 		)
 		(fp_arc
 			(start 6.95 6.450001)
-			(mid 6.803554 6.803554)
+			(mid 6.803553 6.803553)
 			(end 6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -8582,7 +8582,7 @@
 		(at 97.771409 99.398055)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW11"
-			(at 0 2.75 360)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e7e9c98f-f301-4a3c-9315-655478c3bb17")
@@ -8594,7 +8594,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3104d5b6-6df5-4ac6-a2ad-6f27942e5750")
 			(effects
@@ -8605,7 +8605,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e8815e4-97c9-426d-9dd6-950f19bbcba2")
@@ -8617,7 +8617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e34878e7-f312-4d1d-97cb-acf09e6397bd")
@@ -8629,7 +8629,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3aea49af-8acc-4afd-b4be-86c3f5439c3e")
@@ -8833,7 +8833,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "1e5a576c-56aa-447b-bfea-02a2f329c858")
 			(effects
@@ -8905,7 +8905,7 @@
 		(descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
 		(tags "SMD SMT SPST EVQPUL EVQPUC")
 		(property "Reference" "SW15"
-			(at 0 -4.5 360)
+			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(uuid "34eb100d-d759-4e4e-812e-4d3c1e81dceb")
 			(effects
@@ -8916,7 +8916,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0.000001 3.499999 360)
+			(at 0.000001 3.499999 0)
 			(layer "F.Fab")
 			(uuid "a4888228-2a56-40ea-9030-9c5b485d654b")
 			(effects
@@ -9290,7 +9290,7 @@
 			(uuid "7d2c1a66-492b-4c07-bee4-73f146586613")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bf2162c3-d0e8-490d-9d27-ec2bfd4fc555")
 			(effects
@@ -9819,7 +9819,7 @@
 		(at 115.771411 72.268056 180)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW3"
-			(at 0 2.75 360)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8ac5ba8d-67c5-4dee-a147-1b571fc84124")
@@ -9831,7 +9831,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "43497678-e23d-45c2-bab3-9a40fbc2bf07")
 			(effects
@@ -9842,7 +9842,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd58ba0b-a582-4704-b11d-7b99ff0c1616")
@@ -9854,7 +9854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6eadda1-c9a8-4a92-be0e-873f5fe38f76")
@@ -9866,7 +9866,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "052b3a1a-b950-4d33-9810-28dd717587b4")
@@ -10070,7 +10070,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "ee7ab395-afe8-4bdf-b909-c289db2bd73d")
 			(effects
@@ -10142,7 +10142,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "3b8df1fe-2912-447b-84e1-67ba2de3e1a5")
 			(effects
@@ -10153,7 +10153,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "d814ede9-f194-4ddb-b589-a2a2d1d9448c")
 			(effects
@@ -10408,7 +10408,7 @@
 			(uuid "99e8c24f-5b59-4584-a79c-b97934085e82")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bb0e0abe-a39c-4478-a6b9-477fcebba36d")
 			(effects
@@ -10628,7 +10628,7 @@
 		)
 		(fp_arc
 			(start -6.949999 -6.449999)
-			(mid -6.803552 -6.803551)
+			(mid -6.803551 -6.803551)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -10639,7 +10639,7 @@
 		)
 		(fp_arc
 			(start -6.449999 6.949999)
-			(mid -6.803551 6.803552)
+			(mid -6.803551 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -10794,7 +10794,7 @@
 		(at 133.77141 93.518057)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW9"
-			(at 0 2.75 360)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9c7f4d3f-d0e6-471c-aa78-d58ecde1c7b7")
@@ -10806,7 +10806,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "74c25e34-f034-4d5b-bcce-651c4d74e8d6")
 			(effects
@@ -10817,7 +10817,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0b1c2938-5554-4f53-9f08-41829f59ab9e")
@@ -10829,7 +10829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "75ab4cc1-6033-4f73-8b0b-418d9b5d07dc")
@@ -10841,7 +10841,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "06dd27a9-9d0b-4a23-ba69-4a57b8c624c4")
@@ -11045,7 +11045,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "de410144-3516-485b-8026-cf09afe985e3")
 			(effects
@@ -11272,7 +11272,7 @@
 		)
 		(fp_arc
 			(start -6.95 -6.450001)
-			(mid -6.803553 -6.803554)
+			(mid -6.803553 -6.803553)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -11283,7 +11283,7 @@
 		)
 		(fp_arc
 			(start -6.450001 6.95)
-			(mid -6.803554 6.803553)
+			(mid -6.803553 6.803553)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -11294,7 +11294,7 @@
 		)
 		(fp_arc
 			(start 6.450001 -6.95)
-			(mid 6.803554 -6.803554)
+			(mid 6.803553 -6.803553)
 			(end 6.95 -6.45)
 			(stroke
 				(width 0.05)
@@ -11305,7 +11305,7 @@
 		)
 		(fp_arc
 			(start 6.95 6.450001)
-			(mid 6.803554 6.803554)
+			(mid 6.803553 6.803553)
 			(end 6.45 6.95)
 			(stroke
 				(width 0.05)
@@ -12158,11 +12158,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "d6c1bdf7-ac2c-4f21-8239-6307cf767458")
-		(at 186.511409 81.068055)
+		(at 185.77141 82.518055)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "a4a21c32-6f56-45c4-96bf-72cf1974b4f1")
 			(effects
@@ -12173,7 +12173,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "0df8b3f8-f9fa-43d4-bced-b335147a29f4")
 			(effects
@@ -12383,7 +12383,7 @@
 			(uuid "16495907-b6e8-41cf-8ec3-e703ab3ec2e7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8c483f0c-e112-4158-bd4e-4c041897d040")
 			(effects
@@ -12441,7 +12441,7 @@
 		(at 97.771409 65.408056)
 		(descr "Footprint for Kailh Choc style switches")
 		(property "Reference" "SW2"
-			(at 0 2.75 360)
+			(at 0 2.75 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9354c330-0b55-41f3-bac7-06cf6113ad12")
@@ -12453,7 +12453,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ee813318-d7df-4dac-9f75-1779e4698f96")
 			(effects
@@ -12464,7 +12464,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d314115e-d398-464a-9209-7fe63d0e0d0c")
@@ -12476,7 +12476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5019ff8b-dad0-499f-8fd2-7e871c9fd7cc")
@@ -12488,7 +12488,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b4c1f5b-03f3-43da-b530-2701d1779a73")
@@ -12692,7 +12692,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "eb881347-5551-4c5a-93c4-925710517558")
 			(effects
@@ -12878,7 +12878,7 @@
 		)
 		(fp_arc
 			(start -9.055739 -8.816738)
-			(mid -8.302298 -10.116835)
+			(mid -8.302298 -10.116836)
 			(end -6.889999 -10.63)
 			(stroke
 				(width 0.15)
@@ -12972,7 +12972,7 @@
 		)
 		(fp_arc
 			(start -9.055741 -8.816738)
-			(mid -8.302299 -10.116834)
+			(mid -8.3023 -10.116835)
 			(end -6.890001 -10.630001)
 			(stroke
 				(width 0.15)
