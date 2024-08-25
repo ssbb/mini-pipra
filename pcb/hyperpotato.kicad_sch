@@ -5,246 +5,6 @@
 	(uuid "19b5f7b9-14b9-4ffe-8621-f024a09d5ec4")
 	(paper "A3")
 	(lib_symbols
-		(symbol "+3.3V_2"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "+3.3V_3"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Battery_Management:BQ24075RGT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -295,7 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "USB Charge"
+			(property "ki_keywords" "USB Charger"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2435,7 +2195,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SM*"
+			(property "ki_fp_filters" "*Fuse*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3746,7 +3506,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-xp-various:nRF52840_E73-2G4M08S1C"
+			(property "Footprint" "PCM_marbastlib-various:nRF52840_E73-2G4M08S1C"
 				(at -5.08 0 90)
 				(effects
 					(font
@@ -5376,7 +5136,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 4.318 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5466,7 +5226,7 @@
 			(symbol "SW_Push_SPDT_0_1"
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 2.54 2.032)
+						(xy -1.524 0.2032) (xy 2.3368 1.9812)
 					)
 					(stroke
 						(width 0)
@@ -5489,6 +5249,17 @@
 				)
 			)
 			(symbol "SW_Push_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -5580,7 +5351,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 0 0 0)
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5875,7 +5646,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-				(at 0 0 0)
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6611,9 +6382,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6661,7 +6432,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6711,8 +6482,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6731,9 +6502,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6781,7 +6552,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6831,8 +6602,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6851,9 +6622,9 @@
 		)
 		(symbol "power:+BATT"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6901,7 +6672,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag battery"
+			(property "ki_keywords" "global power battery"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6951,8 +6722,8 @@
 			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+BATT"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6971,9 +6742,9 @@
 		)
 		(symbol "power:+VSW"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7021,7 +6792,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7071,8 +6842,8 @@
 			(symbol "+VSW_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+VSW"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7091,9 +6862,9 @@
 		)
 		(symbol "power:Earth"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7112,7 +6883,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -7142,7 +6912,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag ground gnd"
+			(property "ki_keywords" "global ground gnd"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7204,8 +6974,8 @@
 			(symbol "Earth_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "Earth"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7320,9 +7090,9 @@
 		)
 		(symbol "power:VBUS"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7336,7 +7106,7 @@
 				)
 			)
 			(property "Value" "VBUS"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7370,7 +7140,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7420,8 +7190,8 @@
 			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10260,6 +10030,28 @@
 		)
 		(uuid "fc64fea5-5f9d-4a25-98cf-9e816ee22b02")
 	)
+	(global_label "K12"
+		(shape input)
+		(at 121.92 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "004b76d3-e497-4948-909e-5cae0d330a4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.5942 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TP_CLK"
 		(shape input)
 		(at 238.76 114.3 270)
@@ -10304,28 +10096,6 @@
 			)
 		)
 	)
-	(global_label "ROW1"
-		(shape input)
-		(at 133.35 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12f472d8-c133-48d2-96eb-d309dc1c876c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.5966 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RST"
 		(shape output)
 		(at 109.22 186.69 180)
@@ -10348,6 +10118,28 @@
 			)
 		)
 	)
+	(global_label "K9"
+		(shape input)
+		(at 121.92 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1660af61-feb3-4c2f-81c9-c21bc1b5c53a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3847 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HAPTIC_TRIGGER"
 		(shape input)
 		(at 133.35 219.71 0)
@@ -10361,6 +10153,28 @@
 		(uuid "18236132-c5e3-4c2e-97ee-f5885c1b3fa4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.6357 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K3"
+		(shape input)
+		(at 121.92 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "195c2ac3-872d-428c-a454-192d34c9505e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3847 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10414,7 +10228,7 @@
 			)
 		)
 	)
-	(global_label "SW7"
+	(global_label "K7"
 		(shape input)
 		(at 189.23 184.15 90)
 		(fields_autoplaced yes)
@@ -10426,7 +10240,7 @@
 		)
 		(uuid "1ebde2b9-1f64-4282-82ca-cfffca3e82cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 177.2944 90)
+			(at 189.23 178.6853 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,29 +10338,7 @@
 			)
 		)
 	)
-	(global_label "COL0"
-		(shape input)
-		(at 133.35 196.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a7c781b-3166-4983-9f35-75bd039ac969")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.1733 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SW12"
+	(global_label "K12"
 		(shape input)
 		(at 201.93 199.39 90)
 		(fields_autoplaced yes)
@@ -10558,7 +10350,7 @@
 		)
 		(uuid "41ffff57-9e3f-457b-bce3-52eebae29cba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 191.3249 90)
+			(at 201.93 192.7158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,6 +10492,28 @@
 			)
 		)
 	)
+	(global_label "K4"
+		(shape input)
+		(at 121.92 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55c73b85-4987-4758-91b6-4b62a9d0b34d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3847 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TP_S1"
 		(shape input)
 		(at 170.18 115.57 180)
@@ -10722,9 +10536,9 @@
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "K10"
 		(shape input)
-		(at 133.35 201.93 0)
+		(at 121.92 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10732,9 +10546,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5979e890-b17a-4dad-bd7c-2ac9248c7018")
+		(uuid "5f701802-5d90-4b6c-bddc-c63d24acb646")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.1733 201.93 0)
+			(at 128.5942 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10766,6 +10580,28 @@
 			)
 		)
 	)
+	(global_label "K8"
+		(shape input)
+		(at 121.92 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6239dda7-79a0-48ef-845b-3bd8464288a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3847 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 302.26 33.02 0)
@@ -10788,7 +10624,7 @@
 			)
 		)
 	)
-	(global_label "SW4"
+	(global_label "K4"
 		(shape input)
 		(at 214.63 168.91 90)
 		(fields_autoplaced yes)
@@ -10800,7 +10636,7 @@
 		)
 		(uuid "6acdf7a1-6b94-4a5e-8abf-9378d88a1605")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 162.0544 90)
+			(at 214.63 163.4453 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10823,6 +10659,28 @@
 		(uuid "6f46e001-3f79-4b1d-81e6-54a23e6aeea8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.3794 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K5"
+		(shape input)
+		(at 121.92 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7080534a-a345-4a8d-b80b-a967479bfb74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3847 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10898,9 +10756,9 @@
 			)
 		)
 	)
-	(global_label "COL3"
+	(global_label "K6"
 		(shape input)
-		(at 133.35 204.47 0)
+		(at 121.92 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10908,9 +10766,9 @@
 			)
 			(justify left)
 		)
-		(uuid "7c93f803-8236-4570-8e72-12e1bb8422c8")
+		(uuid "7e5df020-bf8d-450f-9a44-f08fa0717d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.1733 204.47 0)
+			(at 127.3847 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10964,9 +10822,9 @@
 			)
 		)
 	)
-	(global_label "ROW2"
+	(global_label "K7"
 		(shape input)
-		(at 133.35 193.04 0)
+		(at 121.92 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10974,9 +10832,31 @@
 			)
 			(justify left)
 		)
-		(uuid "835eef0e-b550-4107-85c8-b50cb1f47050")
+		(uuid "836aba67-fa81-4fd4-805d-da4c1fffd04e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.5966 193.04 0)
+			(at 127.3847 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K11"
+		(shape input)
+		(at 121.92 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83f52b72-bc71-4b22-844c-5710de25c5ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.5942 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +10888,29 @@
 			)
 		)
 	)
-	(global_label "SW1"
+	(global_label "K2"
+		(shape input)
+		(at 121.92 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "853876d9-cf9a-4eee-a29f-95d0356e47ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3847 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K1"
 		(shape input)
 		(at 176.53 168.91 90)
 		(fields_autoplaced yes)
@@ -11020,7 +10922,7 @@
 		)
 		(uuid "86195543-14e4-4845-bf79-f98f290ce14d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 162.0544 90)
+			(at 176.53 163.4453 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11074,7 +10976,7 @@
 			)
 		)
 	)
-	(global_label "SW10"
+	(global_label "K10"
 		(shape input)
 		(at 176.53 199.39 90)
 		(fields_autoplaced yes)
@@ -11086,7 +10988,7 @@
 		)
 		(uuid "918e8cd4-2315-427b-b370-d9071a765067")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 191.3249 90)
+			(at 176.53 192.7158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,7 +11020,7 @@
 			)
 		)
 	)
-	(global_label "SW6"
+	(global_label "K6"
 		(shape input)
 		(at 176.53 184.15 90)
 		(fields_autoplaced yes)
@@ -11130,7 +11032,7 @@
 		)
 		(uuid "97dfe12d-0883-4cb4-8336-a9ea403af27d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 177.2944 90)
+			(at 176.53 178.6853 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11042,7 @@
 			)
 		)
 	)
-	(global_label "SW2"
+	(global_label "K2"
 		(shape input)
 		(at 189.23 168.91 90)
 		(fields_autoplaced yes)
@@ -11152,29 +11054,7 @@
 		)
 		(uuid "9b8d4659-c6a3-4bc8-a0bd-f240bdbb9024")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 162.0544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL1"
-		(shape input)
-		(at 133.35 199.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d5b820e-0aa4-48d9-b6b8-f074da65f017")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.1733 199.39 0)
+			(at 189.23 163.4453 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +11086,7 @@
 			)
 		)
 	)
-	(global_label "SW3"
+	(global_label "K3"
 		(shape input)
 		(at 201.93 168.91 90)
 		(fields_autoplaced yes)
@@ -11218,7 +11098,7 @@
 		)
 		(uuid "a04b0a6c-69f0-47b0-a3dc-45792cbeb0bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 162.0544 90)
+			(at 201.93 163.4453 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +11108,7 @@
 			)
 		)
 	)
-	(global_label "SW8"
+	(global_label "K8"
 		(shape input)
 		(at 201.93 184.15 90)
 		(fields_autoplaced yes)
@@ -11240,7 +11120,7 @@
 		)
 		(uuid "a34286f4-5916-4c9c-976b-897067d065bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 177.2944 90)
+			(at 201.93 178.6853 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,28 +11394,6 @@
 			)
 		)
 	)
-	(global_label "COL4"
-		(shape input)
-		(at 133.35 207.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9908e29-b84c-4c4c-8e31-d6a98e90f489")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.1733 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USER_LED_GREEN"
 		(shape input)
 		(at 133.35 213.36 0)
@@ -11602,29 +11460,7 @@
 			)
 		)
 	)
-	(global_label "ROW0"
-		(shape input)
-		(at 133.35 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d53912b6-c293-4fa8-83a0-053f92a57f3f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.5966 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SW9"
+	(global_label "K9"
 		(shape input)
 		(at 214.63 184.15 90)
 		(fields_autoplaced yes)
@@ -11636,7 +11472,7 @@
 		)
 		(uuid "d953be9f-1903-4b46-8990-7ec22d547c4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 177.2944 90)
+			(at 214.63 178.6853 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +11504,7 @@
 			)
 		)
 	)
-	(global_label "SW13"
+	(global_label "K13"
 		(shape input)
 		(at 214.63 199.39 90)
 		(fields_autoplaced yes)
@@ -11680,7 +11516,7 @@
 		)
 		(uuid "dcd20f57-46da-40bb-ab69-2b7dd63fd8e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 191.3249 90)
+			(at 214.63 192.7158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,6 +11636,28 @@
 			)
 		)
 	)
+	(global_label "K1"
+		(shape input)
+		(at 121.92 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecf06f88-5ae3-4d51-bc89-2b818d86a33e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3847 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB-D-"
 		(shape bidirectional)
 		(at 81.28 60.96 180)
@@ -11844,7 +11702,29 @@
 			)
 		)
 	)
-	(global_label "SW5"
+	(global_label "K13"
+		(shape input)
+		(at 121.92 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f55791d6-b03f-4192-818f-ddb6b673c57a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.5942 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K5"
 		(shape input)
 		(at 163.83 184.15 90)
 		(fields_autoplaced yes)
@@ -11856,7 +11736,7 @@
 		)
 		(uuid "f70c5f73-2461-4016-8397-b5a1b7290dc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 177.2944 90)
+			(at 163.83 178.6853 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +11768,7 @@
 			)
 		)
 	)
-	(global_label "SW11"
+	(global_label "K11"
 		(shape input)
 		(at 189.23 199.39 90)
 		(fields_autoplaced yes)
@@ -11900,7 +11780,7 @@
 		)
 		(uuid "fe3d68f5-8970-46fa-8538-261c13a2ec35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 191.3249 90)
+			(at 189.23 192.7158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11957,7 +11837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 257.81 106.68 0)
 			(effects
 				(font
@@ -11975,7 +11855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 257.81 106.68 0)
 			(effects
 				(font
@@ -12035,7 +11915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 49.53 69.85 0)
 			(effects
 				(font
@@ -12053,7 +11933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 49.53 69.85 0)
 			(effects
 				(font
@@ -12122,7 +12002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "ssbb_parts:D_SOD-323_reversible"
 			(at 41.91 69.85 0)
 			(effects
 				(font
@@ -12140,7 +12020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 41.91 69.85 0)
 			(effects
 				(font
@@ -12174,7 +12054,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3.3V_3")
 		(lib_id "power:+3.3V")
 		(at 92.71 214.63 0)
 		(unit 1)
@@ -12269,7 +12148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 69.85 36.83 0)
 			(effects
 				(font
@@ -12287,7 +12166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 69.85 36.83 0)
 			(effects
 				(font
@@ -12364,7 +12243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 222.25 62.23 0)
 			(effects
 				(font
@@ -12496,7 +12375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 50.8 26.67 0)
 			(effects
 				(font
@@ -12561,7 +12440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 29.21 179.07 0)
 			(effects
 				(font
@@ -12610,7 +12489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+		(property "Footprint" "ssbb_parts:Crystal_SMD_2012-2Pin_2.0x1.2mm_reversible"
 			(at 85.09 190.5 0)
 			(effects
 				(font
@@ -12619,7 +12498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/KDS-Daishinku-KDS-32-768KHz-12-5PF-20ppm_C93231.pdf"
+		(property "Datasheet" "~"
 			(at 85.09 190.5 0)
 			(effects
 				(font
@@ -12628,7 +12507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal, small symbol"
 			(at 85.09 190.5 0)
 			(effects
 				(font
@@ -12688,7 +12567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical"
+		(property "Footprint" "ssbb_parts:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical_reversible"
 			(at 227.33 53.34 0)
 			(effects
 				(font
@@ -12706,7 +12585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 227.33 53.34 0)
 			(effects
 				(font
@@ -12770,7 +12649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 109.22 219.71 0)
 			(effects
 				(font
@@ -12844,7 +12723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_SPST_SKQG_WithStem"
+		(property "Footprint" "ssbb_parts:Panasonic_EVQPUL_EVQPUC_reversible"
 			(at 113.03 189.23 0)
 			(effects
 				(font
@@ -12862,7 +12741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 113.03 189.23 0)
 			(effects
 				(font
@@ -12913,7 +12792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 194.31 52.07 0)
 			(effects
 				(font
@@ -12931,7 +12810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 194.31 52.07 0)
 			(effects
 				(font
@@ -12999,7 +12878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 166.37 186.69 0)
 			(effects
 				(font
@@ -13085,7 +12964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 76.2 0)
 			(effects
 				(font
@@ -13217,7 +13096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -13282,7 +13161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 115.57 157.48 0)
 			(effects
 				(font
@@ -13414,7 +13293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 195.58 0)
 			(effects
 				(font
@@ -13481,7 +13360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 49.53 74.93 0)
 			(effects
 				(font
@@ -13612,7 +13491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 281.94 43.18 0)
 			(effects
 				(font
@@ -13688,7 +13567,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc80")
 		)
 		(instances
 			(project ""
@@ -13754,7 +13633,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc81")
 		)
 		(instances
 			(project ""
@@ -13791,7 +13670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 204.47 171.45 0)
 			(effects
 				(font
@@ -13878,7 +13757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 93.98 50.8 0)
 			(effects
 				(font
@@ -13954,7 +13833,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc82")
 		)
 		(instances
 			(project ""
@@ -14010,7 +13889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 237.49 0)
 			(effects
 				(font
@@ -14124,7 +14003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "ssbb_parts:VSSOP-10_3x3mm_P0.5mm_reversible"
 			(at 57.15 116.84 0)
 			(effects
 				(font
@@ -14219,7 +14098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:L_0603_1608Metric_reversible"
 			(at 35.56 69.85 0)
 			(effects
 				(font
@@ -14237,7 +14116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 35.56 69.85 0)
 			(effects
 				(font
@@ -14296,7 +14175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "ssbb_parts:Fuse_0603_1608Metric_reversible"
 			(at 66.04 26.67 0)
 			(effects
 				(font
@@ -14314,7 +14193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse, small symbol"
 			(at 66.04 26.67 0)
 			(effects
 				(font
@@ -14375,7 +14254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 110.49 160.02 0)
 			(effects
 				(font
@@ -14393,7 +14272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 110.49 160.02 0)
 			(effects
 				(font
@@ -14479,7 +14358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 133.35 35.56 0)
 			(effects
 				(font
@@ -14526,7 +14405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 179.07 171.45 0)
 			(effects
 				(font
@@ -14595,7 +14474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 100.33 111.76 0)
 			(effects
 				(font
@@ -14663,7 +14542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "ssbb_parts:USB_C_Receptacle_HRO_TYPE-C-31-M-12_reversible"
 			(at 39.37 41.91 0)
 			(effects
 				(font
@@ -14795,7 +14674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 193.04 0)
 			(effects
 				(font
@@ -14845,7 +14724,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 67.31 36.83 0)
 			(effects
 				(font
@@ -14863,7 +14742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 67.31 36.83 0)
 			(effects
 				(font
@@ -14922,7 +14801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1.5u"
 			(at 217.17 201.93 0)
 			(effects
 				(font
@@ -15076,7 +14955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 54.61 0)
 			(effects
 				(font
@@ -15207,7 +15086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 261.62 20.32 0)
 			(effects
 				(font
@@ -15253,7 +15132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "ssbb_parts:L_0603_1608Metric_reversible"
 			(at 107.95 157.48 0)
 			(effects
 				(font
@@ -15271,7 +15150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 107.95 157.48 0)
 			(effects
 				(font
@@ -15341,7 +15220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "ssbb_parts:SOT-23_reversible"
 			(at 237.49 37.465 0)
 			(effects
 				(font
@@ -15362,7 +15241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 232.41 35.56 0)
 			(effects
 				(font
@@ -15417,7 +15296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 139.7 160.02 0)
 			(effects
 				(font
@@ -15435,7 +15314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 139.7 160.02 0)
 			(effects
 				(font
@@ -15503,7 +15382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 179.07 186.69 0)
 			(effects
 				(font
@@ -15591,7 +15470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 149.86 52.07 0)
 			(effects
 				(font
@@ -15656,7 +15535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -15721,7 +15600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 162.56 69.85 0)
 			(effects
 				(font
@@ -15797,7 +15676,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc83")
 		)
 		(instances
 			(project ""
@@ -15833,7 +15712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 295.91 68.58 0)
 			(effects
 				(font
@@ -16001,7 +15880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 186.69 57.15 0)
 			(effects
 				(font
@@ -16019,7 +15898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 186.69 57.15 0)
 			(effects
 				(font
@@ -16098,7 +15977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 254 106.68 0)
 			(effects
 				(font
@@ -16147,7 +16026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 238.76 110.49 0)
 			(effects
 				(font
@@ -16215,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 204.47 186.69 0)
 			(effects
 				(font
@@ -16349,7 +16228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 191.77 186.69 0)
 			(effects
 				(font
@@ -16419,7 +16298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "ssbb_parts:SOT-23-6_reversible"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -16437,7 +16316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
 			(at 93.98 63.5 0)
 			(effects
 				(font
@@ -16517,7 +16396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 194.31 48.26 0)
 			(effects
 				(font
@@ -16565,7 +16444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -16583,7 +16462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -16671,7 +16550,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc84")
 		)
 		(instances
 			(project ""
@@ -16710,7 +16589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -16728,7 +16607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -16786,7 +16665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "ssbb_parts:SOT-23_reversible"
 			(at 133.985 125.73 0)
 			(effects
 				(font
@@ -16807,7 +16686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 135.89 120.65 0)
 			(effects
 				(font
@@ -16960,7 +16839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 254 120.65 0)
 			(effects
 				(font
@@ -17009,7 +16888,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 133.35 39.37 0)
 			(effects
 				(font
@@ -17027,7 +16906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 133.35 39.37 0)
 			(effects
 				(font
@@ -17094,7 +16973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 87.63 195.58 0)
 			(effects
 				(font
@@ -17112,7 +16991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 87.63 195.58 0)
 			(effects
 				(font
@@ -17179,7 +17058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 87.63 185.42 0)
 			(effects
 				(font
@@ -17197,7 +17076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 87.63 185.42 0)
 			(effects
 				(font
@@ -17264,7 +17143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 62.23 104.14 0)
 			(effects
 				(font
@@ -17361,7 +17240,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b19a355-c696-4349-bd51-80af6cce06cd")
+			(uuid "1b19a355-c696-4349-bd51-80af6cce06ce")
 		)
 		(instances
 			(project ""
@@ -17398,7 +17277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 191.77 171.45 0)
 			(effects
 				(font
@@ -17542,7 +17421,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 220.98 31.75 0)
 			(effects
 				(font
@@ -17560,7 +17439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 220.98 31.75 0)
 			(effects
 				(font
@@ -17619,7 +17498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 217.17 186.69 0)
 			(effects
 				(font
@@ -17773,7 +17652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 46.99 0)
 			(effects
 				(font
@@ -17849,7 +17728,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b19a355-c696-4349-bd51-80af6cce06cd")
+			(uuid "1b19a355-c696-4349-bd51-80af6cce06cf")
 		)
 		(instances
 			(project ""
@@ -17905,7 +17784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 278.13 25.4 0)
 			(effects
 				(font
@@ -17971,7 +17850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 162.56 0)
 			(effects
 				(font
@@ -18019,7 +17898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 278.13 38.1 0)
 			(effects
 				(font
@@ -18037,7 +17916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 278.13 38.1 0)
 			(effects
 				(font
@@ -18199,7 +18078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 107.95 0)
 			(effects
 				(font
@@ -18275,7 +18154,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1a9a232-00a0-4ba3-96f8-eded908bae33")
+			(uuid "b1a9a232-00a0-4ba3-96f8-eded908bae34")
 		)
 		(instances
 			(project ""
@@ -18331,7 +18210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 222.25 52.07 0)
 			(effects
 				(font
@@ -18396,7 +18275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 128.27 121.92 0)
 			(effects
 				(font
@@ -18444,7 +18323,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 255.27 26.67 0)
 			(effects
 				(font
@@ -18462,7 +18341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 255.27 26.67 0)
 			(effects
 				(font
@@ -18523,7 +18402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 128.27 160.02 0)
 			(effects
 				(font
@@ -18541,7 +18420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 128.27 160.02 0)
 			(effects
 				(font
@@ -18609,7 +18488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 217.17 171.45 0)
 			(effects
 				(font
@@ -18676,7 +18555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -18694,7 +18573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -18818,7 +18697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
+		(property "Footprint" "ssbb_parts:SW_SPDT_PCM12_reversible"
 			(at 247.65 29.21 0)
 			(effects
 				(font
@@ -18836,7 +18715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Momentary Switch, single pole double throw"
 			(at 247.65 29.21 0)
 			(effects
 				(font
@@ -18888,7 +18767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 295.91 78.74 0)
 			(effects
 				(font
@@ -18958,7 +18837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 179.07 57.15 0)
 			(effects
 				(font
@@ -18976,7 +18855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 179.07 57.15 0)
 			(effects
 				(font
@@ -19035,7 +18914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 191.77 201.93 0)
 			(effects
 				(font
@@ -19102,7 +18981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+		(property "Footprint" "ssbb_parts:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_reversible"
 			(at 170.18 66.04 0)
 			(effects
 				(font
@@ -19121,7 +19000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
 			(at 162.56 52.07 0)
 			(effects
 				(font
@@ -19310,7 +19189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 110.49 162.56 0)
 			(effects
 				(font
@@ -19452,7 +19331,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1a9a232-00a0-4ba3-96f8-eded908bae33")
+			(uuid "b1a9a232-00a0-4ba3-96f8-eded908bae35")
 		)
 		(instances
 			(project ""
@@ -19518,7 +19397,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc85")
 		)
 		(instances
 			(project ""
@@ -19555,7 +19434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 179.07 201.93 0)
 			(effects
 				(font
@@ -19652,7 +19531,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc86")
 		)
 		(instances
 			(project ""
@@ -19664,7 +19543,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3.3V_2")
 		(lib_id "power:+3.3V")
 		(at 316.23 64.77 0)
 		(unit 1)
@@ -19755,7 +19633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "ssbb_parts:SOT-23_reversible"
 			(at 259.715 124.46 0)
 			(effects
 				(font
@@ -19776,7 +19654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 261.62 119.38 0)
 			(effects
 				(font
@@ -19867,7 +19745,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc87")
 		)
 		(instances
 			(project ""
@@ -19905,7 +19783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:LED_0603_1608Metric_reversible"
 			(at 186.69 45.72 90)
 			(effects
 				(font
@@ -19923,7 +19801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 186.69 45.72 0)
 			(effects
 				(font
@@ -20011,7 +19889,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b19a355-c696-4349-bd51-80af6cce06cd")
+			(uuid "1b19a355-c696-4349-bd51-80af6cce06d0")
 		)
 		(instances
 			(project ""
@@ -20050,7 +19928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 223.52 110.49 0)
 			(effects
 				(font
@@ -20119,7 +19997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 198.12 44.45 0)
 			(effects
 				(font
@@ -20137,7 +20015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 198.12 44.45 0)
 			(effects
 				(font
@@ -20207,7 +20085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:nRF52840_E73-2G4M08S1C"
+		(property "Footprint" "ssbb_parts:nRF52840_E73-2G4M08S1C_reversible"
 			(at 46.99 196.85 90)
 			(effects
 				(font
@@ -20225,7 +20103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "nRF52840 BT LE module"
 			(at 52.07 196.85 0)
 			(effects
 				(font
@@ -20436,7 +20314,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc88")
 		)
 		(instances
 			(project ""
@@ -20491,7 +20369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 54.61 156.21 0)
 			(effects
 				(font
@@ -20558,7 +20436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 234.95 44.45 0)
 			(effects
 				(font
@@ -20634,7 +20512,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc89")
 		)
 		(instances
 			(project ""
@@ -20690,7 +20568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -20755,7 +20633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 299.72 43.18 0)
 			(effects
 				(font
@@ -20821,7 +20699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 73.66 26.67 0)
 			(effects
 				(font
@@ -20870,7 +20748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:C_0603_1608Metric_reversible"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -21005,7 +20883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -21023,7 +20901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -21081,7 +20959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 295.91 73.66 0)
 			(effects
 				(font
@@ -21150,7 +21028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 146.05 64.77 0)
 			(effects
 				(font
@@ -21168,7 +21046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 146.05 64.77 0)
 			(effects
 				(font
@@ -21226,7 +21104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "ssbb_parts:L_0603_1608Metric_reversible"
 			(at 59.69 26.67 0)
 			(effects
 				(font
@@ -21244,7 +21122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 59.69 26.67 0)
 			(effects
 				(font
@@ -21321,7 +21199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 128.27 157.48 0)
 			(effects
 				(font
@@ -21368,7 +21246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
 			(at 204.47 201.93 0)
 			(effects
 				(font
@@ -21465,7 +21343,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc7f")
+			(uuid "7da2da9a-ac7c-475d-af1f-55a24f72cc8a")
 		)
 		(instances
 			(project ""
@@ -21520,7 +21398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 220.98 27.94 0)
 			(effects
 				(font
@@ -21586,7 +21464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 162.56 0)
 			(effects
 				(font
@@ -21633,7 +21511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm"
+		(property "Footprint" "ssbb_parts:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm_reversible"
 			(at 281.305 44.45 0)
 			(effects
 				(font
@@ -21724,7 +21602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
 			(at 115.57 111.76 0)
 			(effects
 				(font
