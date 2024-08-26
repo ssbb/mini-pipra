@@ -5982,7 +5982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 73.66 54.61 90)
 			(effects
 				(font
@@ -6136,7 +6136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 35.56 54.61 90)
 			(effects
 				(font
@@ -6426,7 +6426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 86.36 54.61 90)
 			(effects
 				(font
@@ -6514,7 +6514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 86.36 68.58 90)
 			(effects
 				(font
@@ -6670,7 +6670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 48.26 41.91 90)
 			(effects
 				(font
@@ -7230,7 +7230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 73.66 68.58 90)
 			(effects
 				(font
@@ -7448,7 +7448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 48.26 68.58 90)
 			(effects
 				(font
@@ -7900,7 +7900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 60.96 41.91 90)
 			(effects
 				(font
@@ -7988,7 +7988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 60.96 54.61 90)
 			(effects
 				(font
@@ -8141,7 +8141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 86.36 41.91 90)
 			(effects
 				(font
@@ -8927,7 +8927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 73.66 41.91 90)
 			(effects
 				(font
@@ -9214,7 +9214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 60.96 68.58 90)
 			(effects
 				(font
@@ -10485,7 +10485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_0603_1608Metric_reversible"
+		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
 			(at 48.26 54.61 90)
 			(effects
 				(font
