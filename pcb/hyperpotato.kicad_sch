@@ -3002,9 +3002,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3018,7 +3018,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3102,8 +3102,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3393,7 +3393,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ssbb_parts:Sprintek_SK8707-01_reversible"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3734,12 +3734,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80b8fa74-38fe-49ad-b155-19d16b11be6f")
-	)
-	(junction
-		(at 35.56 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a960fbf-cf43-4c4a-939b-612b4a427545")
 	)
 	(junction
 		(at 60.96 44.45)
@@ -4310,16 +4304,6 @@
 			(type default)
 		)
 		(uuid "a6aadc1c-3595-4cce-8647-e2126c075791")
-	)
-	(wire
-		(pts
-			(xy 35.56 57.15) (xy 35.56 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a98217fc-44aa-45c0-b115-976853a280c9")
 	)
 	(wire
 		(pts
@@ -5162,7 +5146,7 @@
 			)
 		)
 	)
-	(global_label "ROW1"
+	(global_label "ROW2"
 		(shape input)
 		(at 26.67 71.12 180)
 		(fields_autoplaced yes)
@@ -5406,7 +5390,7 @@
 	)
 	(global_label "TP_CLK"
 		(shape input)
-		(at 218.44 142.24 270)
+		(at 222.25 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5416,7 +5400,7 @@
 		)
 		(uuid "9117663e-9acb-49a3-8303-8c5150245194")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 151.9985 90)
+			(at 222.25 151.9985 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5918,7 @@
 	)
 	(global_label "TP_DATA"
 		(shape input)
-		(at 204.47 142.24 270)
+		(at 208.28 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5944,7 +5928,7 @@
 		)
 		(uuid "fc77ee3a-42fe-4442-af9d-6cb32af056cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 152.8452 90)
+			(at 208.28 152.8452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 212.09 0)
 			(effects
 				(font
@@ -7713,7 +7697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 193.04 175.26 0)
 			(effects
 				(font
@@ -8624,7 +8608,7 @@
 	)
 	(symbol
 		(lib_id "ssbb_parts:+3.3V_OPTIONAL")
-		(at 218.44 137.16 0)
+		(at 222.25 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8633,7 +8617,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a6e02d-7b43-4e73-8538-bcc9e39ab848")
 		(property "Reference" "#PWR020"
-			(at 218.44 140.97 0)
+			(at 222.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +8626,7 @@
 			)
 		)
 		(property "Value" "+3.3V_OPTIONAL"
-			(at 218.44 132.08 0)
+			(at 222.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 137.16 0)
+			(at 222.25 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 137.16 0)
+			(at 222.25 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_OPTIONAL\""
-			(at 218.44 137.16 0)
+			(at 222.25 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,7 +8835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:Sprintek_SK8707-01_Sensor"
+		(property "Footprint" "ssbb_parts:Sprintek_SK8707-01_Sensor_reversible"
 			(at 125.73 190.5 0)
 			(effects
 				(font
@@ -9480,7 +9464,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 204.47 139.7 0)
+		(at 208.28 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9489,7 +9473,7 @@
 		(fields_autoplaced yes)
 		(uuid "a096b34f-55f9-4c84-945f-c267523d62aa")
 		(property "Reference" "R4"
-			(at 207.01 138.4299 0)
+			(at 210.82 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9482,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 207.01 140.9699 0)
+			(at 210.82 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9491,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
-			(at 204.47 139.7 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 139.7 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +9509,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 204.47 139.7 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +9558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ssbb_parts:Sprintek_SK8707-01_reversible"
 			(at 125.73 161.29 0)
 			(effects
 				(font
@@ -9925,7 +9909,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 218.44 139.7 0)
+		(at 222.25 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9934,7 +9918,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0983cc7-8dfc-4579-9341-5801615516ff")
 		(property "Reference" "R5"
-			(at 220.98 138.4299 0)
+			(at 224.79 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9943,7 +9927,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 220.98 140.9699 0)
+			(at 224.79 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +9936,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
-			(at 218.44 139.7 0)
+			(at 222.25 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +9945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 139.7 0)
+			(at 222.25 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9970,7 +9954,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 218.44 139.7 0)
+			(at 222.25 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +10179,7 @@
 	)
 	(symbol
 		(lib_id "ssbb_parts:+3.3V_OPTIONAL")
-		(at 204.47 137.16 0)
+		(at 208.28 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10204,7 +10188,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8d24ad9-30de-434e-8b67-bcb0e04ce37a")
 		(property "Reference" "#PWR019"
-			(at 204.47 140.97 0)
+			(at 208.28 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,7 +10197,7 @@
 			)
 		)
 		(property "Value" "+3.3V_OPTIONAL"
-			(at 204.47 132.08 0)
+			(at 208.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +10205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 137.16 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +10214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 137.16 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +10223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_OPTIONAL\""
-			(at 204.47 137.16 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +10782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
 			(at 193.04 193.04 0)
 			(effects
 				(font
