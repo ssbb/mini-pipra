@@ -5694,7 +5694,7 @@
 	)
 	(global_label "TP_CLK"
 		(shape input)
-		(at 222.25 142.24 270)
+		(at 226.06 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5704,7 +5704,7 @@
 		)
 		(uuid "9117663e-9acb-49a3-8303-8c5150245194")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 151.9985 90)
+			(at 226.06 151.9985 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5870,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 176.53 142.24 270)
+		(at 171.45 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5880,7 +5880,7 @@
 		)
 		(uuid "aba55ef3-e745-40be-90ad-e6123469c0b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 148.7933 90)
+			(at 171.45 148.7933 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +6336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 73.66 54.61 90)
 			(effects
 				(font
@@ -6490,7 +6490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 35.56 54.61 90)
 			(effects
 				(font
@@ -6684,7 +6684,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 176.53 139.7 0)
+		(at 171.45 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6693,7 +6693,7 @@
 		(fields_autoplaced yes)
 		(uuid "10a1bfeb-7559-4d92-9613-8dfbc1e4bbae")
 		(property "Reference" "R2"
-			(at 179.07 138.4299 0)
+			(at 173.99 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +6702,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 179.07 140.9699 0)
+			(at 173.99 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +6711,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
-			(at 176.53 139.7 0)
+			(at 171.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +6720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 139.7 0)
+			(at 171.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6729,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 176.53 139.7 0)
+			(at 171.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 86.36 54.61 90)
 			(effects
 				(font
@@ -6868,7 +6868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 86.36 68.58 90)
 			(effects
 				(font
@@ -7024,7 +7024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 48.26 41.91 90)
 			(effects
 				(font
@@ -7584,7 +7584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 73.66 68.58 90)
 			(effects
 				(font
@@ -7887,7 +7887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 48.26 68.58 90)
 			(effects
 				(font
@@ -8273,7 +8273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 60.96 41.91 90)
 			(effects
 				(font
@@ -8361,7 +8361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 60.96 54.61 90)
 			(effects
 				(font
@@ -8514,7 +8514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 86.36 41.91 90)
 			(effects
 				(font
@@ -9063,7 +9063,7 @@
 	)
 	(symbol
 		(lib_id "ssbb_parts:+3.3V_OPTIONAL")
-		(at 222.25 137.16 0)
+		(at 226.06 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9072,7 +9072,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a6e02d-7b43-4e73-8538-bcc9e39ab848")
 		(property "Reference" "#PWR020"
-			(at 222.25 140.97 0)
+			(at 226.06 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +9081,7 @@
 			)
 		)
 		(property "Value" "+3.3V_OPTIONAL"
-			(at 222.25 132.08 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 137.16 0)
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 137.16 0)
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,7 +9107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_OPTIONAL\""
-			(at 222.25 137.16 0)
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +9206,7 @@
 		(dnp no)
 		(uuid "89f39ef9-1736-4491-9234-9b65d045679e")
 		(property "Reference" "SW9"
-			(at 85.852 43.942 0)
+			(at 88.646 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9366,7 +9366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 73.66 41.91 90)
 			(effects
 				(font
@@ -9494,7 +9494,7 @@
 	)
 	(symbol
 		(lib_id "ssbb_parts:+3.3V_OPTIONAL")
-		(at 176.53 137.16 0)
+		(at 171.45 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9503,7 +9503,7 @@
 		(fields_autoplaced yes)
 		(uuid "92983dbe-cd47-4b73-85d8-42edb17816b2")
 		(property "Reference" "#PWR06"
-			(at 176.53 140.97 0)
+			(at 171.45 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +9512,7 @@
 			)
 		)
 		(property "Value" "+3.3V_OPTIONAL"
-			(at 176.53 132.08 0)
+			(at 171.45 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +9520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 137.16 0)
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 137.16 0)
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_OPTIONAL\""
-			(at 176.53 137.16 0)
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +9653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 60.96 68.58 90)
 			(effects
 				(font
@@ -10031,7 +10031,7 @@
 		(dnp no)
 		(uuid "ab702f9e-fa36-4eb8-9285-3494c4175914")
 		(property "Reference" "SW4"
-			(at 85.852 31.75 0)
+			(at 88.9 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +10365,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 222.25 139.7 0)
+		(at 226.06 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10374,7 +10374,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0983cc7-8dfc-4579-9341-5801615516ff")
 		(property "Reference" "R5"
-			(at 224.79 138.4299 0)
+			(at 228.6 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10383,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 224.79 140.9699 0)
+			(at 228.6 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,7 +10392,7 @@
 			)
 		)
 		(property "Footprint" "ssbb_parts:R_0603_1608Metric_reversible"
-			(at 222.25 139.7 0)
+			(at 226.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10401,7 +10401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 139.7 0)
+			(at 226.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +10410,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 222.25 139.7 0)
+			(at 226.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10991,7 +10991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:D_SOD-123_reversible"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 48.26 54.61 90)
 			(effects
 				(font
