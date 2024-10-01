@@ -3372,126 +3372,6 @@
 				)
 			)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ssbb_parts:+3.3V_OPTIONAL"
 			(power)
 			(pin_numbers hide)
@@ -7074,7 +6954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 45.72 63.5 0)
 			(effects
 				(font
@@ -7298,7 +7178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -7568,7 +7448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 71.12 36.83 0)
 			(effects
 				(font
@@ -8228,72 +8108,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 193.04 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4433d4f3-fcbb-454f-a3a8-022c8aa9027a")
-		(property "Reference" "#PWR023"
-			(at 193.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 193.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 193.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d79721b-ca02-4424-ba62-38103abb9b55")
-		)
-		(instances
-			(project "hyperpotato"
-				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 45.72 36.83 0)
 		(unit 1)
@@ -8319,7 +8133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 45.72 36.83 0)
 			(effects
 				(font
@@ -8786,7 +8600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 45.72 49.53 0)
 			(effects
 				(font
@@ -8854,7 +8668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 33.02 49.53 0)
 			(effects
 				(font
@@ -8922,7 +8736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -8990,7 +8804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 58.42 49.53 0)
 			(effects
 				(font
@@ -9339,7 +9153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -9408,7 +9222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -9900,71 +9714,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 102.87 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b62b103-9d62-4c1b-8388-044c580e3e91")
-		(property "Reference" "#PWR09"
-			(at 102.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 102.87 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 102.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23fbfa05-6a83-4216-a8bd-2eb2e431e65b")
-		)
-		(instances
-			(project "hyperpotato"
-				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 83.82 171.45 180)
 		(unit 1)
@@ -10298,7 +10047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 83.82 36.83 0)
 			(effects
 				(font
@@ -10477,6 +10226,72 @@
 			(project ""
 				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad4ca6c5-7d8a-4f12-a56a-3256f4183fdb")
+		(property "Reference" "#PWR09"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b31700b7-1ab0-41dc-a816-dd05d76ac081")
+		)
+		(instances
+			(project ""
+				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10842,7 +10657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 58.42 63.5 0)
 			(effects
 				(font
@@ -11374,6 +11189,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f231a5ee-b341-4f89-a626-63f4b5619838")
+		(property "Reference" "#PWR023"
+			(at 193.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 193.04 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68d37189-76da-42f9-833b-2a969ad43712")
+		)
+		(instances
+			(project ""
+				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 186.69 0)
 		(unit 1)
@@ -11581,7 +11462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_choc_v1_reversible_1.5u"
+		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
 			(at 83.82 63.5 0)
 			(effects
 				(font
