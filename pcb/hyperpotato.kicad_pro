@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.5,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 4.0,
+          "height": 4.5,
+          "width": 4.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -442,7 +442,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "ssbb_parts",
-      "reversible-kicad-footprints"
+      "reversible-kicad-footprints",
+      "ssbb_parts_reversible"
     ],
     "pinned_symbol_libs": [
       "hyperpotato",
