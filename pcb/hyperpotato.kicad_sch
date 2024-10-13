@@ -8861,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 45.72 63.5 0)
 			(effects
 				(font
@@ -9086,7 +9086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -9357,7 +9357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 71.12 36.83 0)
 			(effects
 				(font
@@ -9581,7 +9581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hyperpotato:Xiao_nRF52840_AC_Reflow_reversible"
+		(property "Footprint" "hyperpotato:XIAO-nRF52840-Sense-14P-2.54-21X17.8MM_1"
 			(at 81.28 287.02 0)
 			(effects
 				(font
@@ -9892,7 +9892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 45.72 36.83 0)
 			(effects
 				(font
@@ -10356,7 +10356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 45.72 49.53 0)
 			(effects
 				(font
@@ -10425,7 +10425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 33.02 49.53 0)
 			(effects
 				(font
@@ -10562,7 +10562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -10631,7 +10631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 58.42 49.53 0)
 			(effects
 				(font
@@ -10698,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "hyperpotato:SOT-23_reversible"
 			(at 108.585 109.22 0)
 			(effects
 				(font
@@ -10891,72 +10891,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 146.05 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84cd213e-df53-4626-b69f-277da34cacf8")
-		(property "Reference" "#PWR06"
-			(at 146.05 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 146.05 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2a99c31-9014-4e06-8ec8-80a365d3ee0c")
-		)
-		(instances
-			(project ""
-				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "SW_Push_45deg_3")
 		(lib_id "Switch:SW_Push_45deg")
 		(at 58.42 36.83 0)
@@ -10983,7 +10917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -11052,7 +10986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -11877,7 +11811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 83.82 36.83 0)
 			(effects
 				(font
@@ -12353,7 +12287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 58.42 63.5 0)
 			(effects
 				(font
@@ -12876,6 +12810,72 @@
 			(project ""
 				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ssbb_parts:+3.3V_OPTIONAL")
+		(at 146.05 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df80fcf0-adc8-4033-bf94-6d80ce3a2027")
+		(property "Reference" "#PWR06"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_OPTIONAL"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_OPTIONAL\""
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9c6ed2d-9741-4e90-9ff4-7fbaf65acc58")
+		)
+		(instances
+			(project ""
+				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -13423,7 +13423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_Choc_Mini_reversible_1u"
+		(property "Footprint" "hyperpotato:SW_Choc_Mini_reversible_1u"
 			(at 83.82 63.5 0)
 			(effects
 				(font
