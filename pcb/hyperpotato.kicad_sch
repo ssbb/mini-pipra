@@ -5388,7 +5388,7 @@
 				)
 			)
 		)
-		(symbol "ssbb_parts:Sprintek_SK8707-01_Sensor"
+		(symbol "ssbb_parts:TP_Sprintek_SK8707-01_Sensor"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5400,7 +5400,7 @@
 					)
 				)
 			)
-			(property "Value" "Sprintek_SK8707-01_Sensor"
+			(property "Value" "TP_Sprintek_SK8707-01_Sensor"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -5408,7 +5408,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ssbb_parts:Sprintek_SK8707-01_Sensor"
+			(property "Footprint" "ssbb_parts:TP_Sprintek_SK8707-01_Sensor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5435,7 +5435,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Sprintek_SK8707-01_Sensor_1_1"
+			(symbol "TP_Sprintek_SK8707-01_Sensor_1_1"
 				(rectangle
 					(start -5.08 6.35)
 					(end 5.08 -6.35)
@@ -5450,7 +5450,7 @@
 				(pin bidirectional line
 					(at 7.62 3.81 180)
 					(length 2.54)
-					(name "S1"
+					(name "S_VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5468,7 +5468,7 @@
 				(pin bidirectional line
 					(at 7.62 1.27 180)
 					(length 2.54)
-					(name "S2"
+					(name "S_GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5486,7 +5486,7 @@
 				(pin bidirectional line
 					(at 7.62 -1.27 180)
 					(length 2.54)
-					(name "S3"
+					(name "S_Y"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5504,7 +5504,7 @@
 				(pin bidirectional line
 					(at 7.62 -3.81 180)
 					(length 2.54)
-					(name "S4"
+					(name "S_X"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5521,7 +5521,7 @@
 				)
 			)
 		)
-		(symbol "ssbb_parts:Sprintek_SK8707–01"
+		(symbol "ssbb_parts:TP_Sprintek_SK8707–01"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5541,7 +5541,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ssbb_parts:Sprintek_SK8707-01_reversible"
+			(property "Footprint" "ssbb_parts:TP_Sprintek_SK8707-01_reversible"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5568,7 +5568,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Sprintek_SK8707–01_1_1"
+			(symbol "TP_Sprintek_SK8707–01_1_1"
 				(rectangle
 					(start -11.43 11.43)
 					(end 11.43 -11.43)
@@ -5601,7 +5601,7 @@
 				(pin bidirectional line
 					(at -13.97 -3.81 0)
 					(length 2.54)
-					(name "S2"
+					(name "S_GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5619,7 +5619,7 @@
 				(pin bidirectional line
 					(at -13.97 -6.35 0)
 					(length 2.54)
-					(name "S3"
+					(name "S_Y"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5637,7 +5637,7 @@
 				(pin bidirectional line
 					(at -13.97 -8.89 0)
 					(length 2.54)
-					(name "S4"
+					(name "S_X"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5781,7 +5781,7 @@
 				(pin bidirectional line
 					(at -13.97 -1.27 0)
 					(length 2.54)
-					(name "S1"
+					(name "S_VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7140,7 +7140,7 @@
 			)
 		)
 	)
-	(global_label "TP_S3"
+	(global_label "TP_Y"
 		(shape input)
 		(at 133.35 191.77 0)
 		(fields_autoplaced yes)
@@ -7152,34 +7152,12 @@
 		)
 		(uuid "134b0991-bbbc-4071-984d-0e9a73ff3dc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.9594 191.77 0)
+			(at 139.6663 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 86.36 275.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "162f9f2d-4b2c-4207-9fe2-9b95e7040ba5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 282.0828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7206,7 +7184,7 @@
 			)
 		)
 	)
-	(global_label "TP_S2"
+	(global_label "TP_GND"
 		(shape input)
 		(at 111.76 165.1 180)
 		(fields_autoplaced yes)
@@ -7218,7 +7196,7 @@
 		)
 		(uuid "24aa7946-b20b-493c-a6be-addf5e1ab628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.1506 165.1 0)
+			(at 103.667 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,6 +7360,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 86.36 275.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b14dfa3-0de7-4822-9e75-156998430b69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 282.1433 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 43.18 173.99 180)
@@ -7514,7 +7514,7 @@
 			)
 		)
 	)
-	(global_label "TP_S4"
+	(global_label "TP_X"
 		(shape input)
 		(at 133.35 194.31 0)
 		(fields_autoplaced yes)
@@ -7526,7 +7526,7 @@
 		)
 		(uuid "62a94953-573c-4dff-bef2-581d3a970c18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.9594 194.31 0)
+			(at 139.6663 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7536,7 @@
 			)
 		)
 	)
-	(global_label "TP_S4"
+	(global_label "TP_X"
 		(shape input)
 		(at 111.76 170.18 180)
 		(fields_autoplaced yes)
@@ -7548,7 +7548,29 @@
 		)
 		(uuid "65c9b15e-90d1-46dc-a9bc-c3ce8a8cec5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.1506 170.18 0)
+			(at 105.4437 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 88.9 275.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75acb67d-81e4-4b27-a534-021e9977abc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 282.0828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7712,7 @@
 			)
 		)
 	)
-	(global_label "TP_S1"
+	(global_label "TP_VCC"
 		(shape input)
 		(at 111.76 162.56 180)
 		(fields_autoplaced yes)
@@ -7702,7 +7724,7 @@
 		)
 		(uuid "8b8aae3c-d17b-406b-8a22-17db92fb38ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.1506 162.56 0)
+			(at 103.667 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,28 +7822,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 88.9 275.59 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9cc5d0e8-7112-4615-93a3-c20f5bb2a418")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 282.1433 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TP_CLK"
 		(shape input)
 		(at 139.7 157.48 0)
@@ -7844,7 +7844,7 @@
 			)
 		)
 	)
-	(global_label "TP_S1"
+	(global_label "TP_VCC"
 		(shape input)
 		(at 133.35 186.69 0)
 		(fields_autoplaced yes)
@@ -7856,7 +7856,7 @@
 		)
 		(uuid "a4baa459-b61e-4bfa-b29b-ceae50423922")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.9594 186.69 0)
+			(at 141.443 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +7954,7 @@
 			)
 		)
 	)
-	(global_label "TP_S2"
+	(global_label "TP_GND"
 		(shape input)
 		(at 133.35 189.23 0)
 		(fields_autoplaced yes)
@@ -7966,7 +7966,7 @@
 		)
 		(uuid "af85b388-4dda-453d-8b7d-7e89d7a82661")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.9594 189.23 0)
+			(at 141.443 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +8174,7 @@
 			)
 		)
 	)
-	(global_label "TP_S3"
+	(global_label "TP_Y"
 		(shape input)
 		(at 111.76 167.64 180)
 		(fields_autoplaced yes)
@@ -8186,7 +8186,7 @@
 		)
 		(uuid "f865d293-a143-4119-8056-1a9f8fb2486f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.1506 167.64 0)
+			(at 105.4437 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 73.66 54.61 90)
 			(effects
 				(font
@@ -8532,7 +8532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 35.56 54.61 90)
 			(effects
 				(font
@@ -8686,7 +8686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 86.36 54.61 90)
 			(effects
 				(font
@@ -8774,7 +8774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 86.36 68.58 90)
 			(effects
 				(font
@@ -8931,7 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 48.26 41.91 90)
 			(effects
 				(font
@@ -9017,7 +9017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:SW_SPST_SKQG_WithStem_reversible"
+		(property "Footprint" "hyperpotato:Panasonic_EVQPUL_EVQPUC_reversible"
 			(at 194.31 92.71 0)
 			(effects
 				(font
@@ -9222,7 +9222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical_reversible"
+		(property "Footprint" "hyperpotato:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical_reversible"
 			(at 149.86 104.14 0)
 			(effects
 				(font
@@ -9493,7 +9493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 73.66 68.58 90)
 			(effects
 				(font
@@ -9581,7 +9581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hyperpotato:XIAO-nRF52840-Sense-14P-2.54-21X17.8MM_1"
+		(property "Footprint" "hyperpotato:Seed_Studio_XIAO_nRF52840_reversible"
 			(at 81.28 287.02 0)
 			(effects
 				(font
@@ -9711,7 +9711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 48.26 68.58 90)
 			(effects
 				(font
@@ -9798,7 +9798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:VSSOP-10_3x3mm_P0.5mm_reversible"
+		(property "Footprint" "hyperpotato:VSSOP-10_3x3mm_P0.5mm_reversible"
 			(at 58.42 176.53 0)
 			(effects
 				(font
@@ -9962,7 +9962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 60.96 41.91 90)
 			(effects
 				(font
@@ -10050,7 +10050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 60.96 54.61 90)
 			(effects
 				(font
@@ -10269,7 +10269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 86.36 41.91 90)
 			(effects
 				(font
@@ -10477,7 +10477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b4fa79-d19f-40ca-ac70-6f8a55ea676e")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 209.55 34.29 90)
 			(effects
 				(font
@@ -10493,7 +10493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:R_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:R_1206_3216Metric_reversible"
 			(at 209.55 39.37 0)
 			(effects
 				(font
@@ -10529,7 +10529,7 @@
 		(instances
 			(project ""
 				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10848,7 +10848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:C_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:C_1206_3216Metric_reversible"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -11029,7 +11029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ssbb_parts:Sprintek_SK8707-01_Sensor")
+		(lib_id "ssbb_parts:TP_Sprintek_SK8707-01_Sensor")
 		(at 125.73 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11054,7 +11054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:TP_Sensor_Connector_reversible"
+		(property "Footprint" "hyperpotato:TP_Sensor_Connector_reversible"
 			(at 125.73 190.5 0)
 			(effects
 				(font
@@ -11130,7 +11130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 73.66 41.91 90)
 			(effects
 				(font
@@ -11266,7 +11266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "920fde6c-9688-45f8-bdee-e26d45ecb869")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 209.55 46.99 90)
 			(effects
 				(font
@@ -11282,7 +11282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:R_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:R_1206_3216Metric_reversible"
 			(at 209.55 52.07 0)
 			(effects
 				(font
@@ -11318,7 +11318,7 @@
 		(instances
 			(project "hyperpotato"
 				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11419,7 +11419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 60.96 68.58 90)
 			(effects
 				(font
@@ -11507,7 +11507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ssbb_parts:ELV1411A_reversible"
+		(property "Footprint" "hyperpotato:ELV1411A_reversible"
 			(at 83.82 171.45 0)
 			(effects
 				(font
@@ -11687,7 +11687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ssbb_parts:Sprintek_SK8707–01")
+		(lib_id "ssbb_parts:TP_Sprintek_SK8707–01")
 		(at 125.73 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11712,7 +11712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts:TP_Sprintek_SK8707-01_reversible"
+		(property "Footprint" "hyperpotato:TP_Sprintek_SK8707-01_reversible"
 			(at 125.73 161.29 0)
 			(effects
 				(font
@@ -11878,7 +11878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:R_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:R_1206_3216Metric_reversible"
 			(at 106.68 91.44 0)
 			(effects
 				(font
@@ -12203,7 +12203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5bfd0eb-2896-4474-8e19-d5be20b2160d")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 209.55 58.42 90)
 			(effects
 				(font
@@ -12219,7 +12219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:R_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:R_1206_3216Metric_reversible"
 			(at 209.55 63.5 0)
 			(effects
 				(font
@@ -12255,7 +12255,7 @@
 		(instances
 			(project "hyperpotato"
 				(path "/19b5f7b9-14b9-4ffe-8621-f024a09d5ec4"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -12689,7 +12689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:D_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:D_1206_3216Metric_reversible"
 			(at 48.26 54.61 90)
 			(effects
 				(font
@@ -12907,7 +12907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:SW_SPDT_PCM12_reversible"
+		(property "Footprint" "hyperpotato:SW_SPDT_PCM12_reversible"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -13178,7 +13178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:C_1206_3216Metric_reversible"
+		(property "Footprint" "hyperpotato:C_1206_3216Metric_reversible"
 			(at 73.66 186.69 0)
 			(effects
 				(font
@@ -13239,7 +13239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "T460S"
 			(at 107.95 187.96 0)
 			(effects
 				(font
@@ -13248,7 +13248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ssbb_parts:TP_Lenovo_T460S_Sensor"
+		(property "Footprint" "hyperpotato:TP_Lenovo_T460S_Sensor"
 			(at 105.41 186.69 0)
 			(effects
 				(font
@@ -13312,7 +13312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ssbb_parts_reversible:TSSOP-16_4.4x5mm_P0.65mm_reversible"
+		(property "Footprint" "hyperpotato:TSSOP-16_4.4x5mm_P0.65mm_reversible"
 			(at 194.31 180.34 0)
 			(effects
 				(font

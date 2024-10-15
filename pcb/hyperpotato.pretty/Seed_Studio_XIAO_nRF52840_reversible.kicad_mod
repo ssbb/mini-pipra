@@ -1,4 +1,4 @@
-(footprint "XIAO-nRF52840-Sense-14P-2.54-21X17.8MM_1"
+(footprint "Seed_Studio_XIAO_nRF52840_reversible"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -5620,56 +5620,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "677554f0-0fd3-4187-a765-9bf2dabe687c")
-	)
-	(fp_text user "XIAO"
-		(at 0 6.5 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "2fcb37d8-7767-49db-b31f-73edd9bbcfec")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "Seeed Studio"
-		(at 0 4.5 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "5ecf3550-114a-4b77-8189-c0aa7432112a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "XIAO"
-		(at 0 6.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "6cf78825-d5fd-4922-8304-aa4aa1d8834e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Seeed Studio"
-		(at 0 4.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "c594f640-2dbf-40b0-9010-d0d25f874c28")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" smd rect
 		(at -8.5 -7.62)
