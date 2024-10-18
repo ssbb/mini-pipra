@@ -686,15 +686,15 @@
 		(roundrect_rratio 0.25)
 		(uuid "95b5aa2b-6a53-461d-aeb1-c9351f77d6e2")
 	)
-	(model "../models/ezmate.stp"
+	(model "../3dmodels/ezmate.step"
 		(offset
-			(xyz 0.5 -2 0)
+			(xyz 0 0 1.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

@@ -562,4 +562,15 @@
 		(remove_unused_layers no)
 		(uuid "4bf07979-6f11-4ddd-93c2-3150e5045380")
 	)
+	(model "../3dmodels/t460s.step"
+		(offset
+			(xyz 0 0 -1.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

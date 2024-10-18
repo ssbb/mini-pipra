@@ -516,4 +516,15 @@
 		(clearance 0.2)
 		(uuid "dbe4b416-c218-4728-8cb9-9052bce1cce6")
 	)
+	(model "../3dmodels/pg1232.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

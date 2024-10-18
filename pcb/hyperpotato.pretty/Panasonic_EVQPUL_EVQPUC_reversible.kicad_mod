@@ -403,13 +403,6 @@
 		(size 0.75 0.75)
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
-		(uuid "66daa9c4-81b5-4c79-93e9-0eaaffc1b8b3")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 -1.375 180)
-		(size 0.75 0.75)
-		(drill 0.75)
-		(layers "*.Cu" "*.Mask")
 		(uuid "f1eb4257-fc58-40fe-9b87-bfe2035c0aeb")
 	)
 	(pad "" np_thru_hole circle
@@ -418,13 +411,6 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(uuid "119925c6-c9d1-418c-a6d0-314d76d95cb6")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 1.375 180)
-		(size 0.75 0.75)
-		(drill 0.75)
-		(layers "*.Cu" "*.Mask")
-		(uuid "354580e2-be45-40e8-8351-03ddf67578a2")
 	)
 	(pad "1" smd rect
 		(at -2.625 -0.85 180)
@@ -474,15 +460,15 @@
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "86ffef3d-315e-4681-9318-9ce1c6566191")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Panasonic_EVQPUL_EVQPUC.wrl"
+	(model "../3dmodels/evq-puc02k.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 180)
 		)
 	)
 )

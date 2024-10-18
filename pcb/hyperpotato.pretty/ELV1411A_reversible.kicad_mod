@@ -344,4 +344,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "0b5c83ac-acca-49a5-aaf2-093e178ceceb")
 	)
+	(model "../3dmodels/elv1411a.step"
+		(offset
+			(xyz 0 8.15 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -5837,4 +5837,15 @@
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "53036dcf-e299-4196-acd2-3d93deb5b641")
 	)
+	(model "../3dmodels/xiao.step"
+		(offset
+			(xyz 6.15 -1.85 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )

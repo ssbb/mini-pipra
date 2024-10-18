@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.85 0)
 		(layer "F.SilkS")
-		(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
+		(uuid "83282b5c-c239-449c-ad90-3b0ef1721f3c")
 		(effects
 			(font
 				(size 1 1)
@@ -266,6 +266,18 @@
 		)
 		(layer "F.Fab")
 		(uuid "e18a45df-6ee8-4cca-b760-a239cabfb336")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.85 0)
+		(layer "B.SilkS")
+		(uuid "93947620-61dd-4fa9-b5f6-9c90719cec3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
