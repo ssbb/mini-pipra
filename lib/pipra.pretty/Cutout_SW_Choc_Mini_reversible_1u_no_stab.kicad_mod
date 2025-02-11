@@ -1,0 +1,145 @@
+(footprint "Cutout_SW_Choc_Mini_reversible_1u_no_stab"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW11"
+		(at 4.98 -5.69 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "b7fa1b4f-17d6-4c1a-9d80-44c0b2dfea9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at -0.07 8.17 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "564f5d08-35c4-46ed-b9ca-596a25afbd0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "7d48f2dc-07d8-4cd9-95aa-d3b7ece37286")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a995019d-97c7-4eaf-bd74-1db4d23da161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "14d1ede8-745d-48c9-b91c-48ec7e5f2759")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.79 -3.45)
+		(end -6.79 6.91)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3e6dddcc-b33b-4a11-8ad7-0b0e52b1436e")
+	)
+	(fp_line
+		(start -6.79 6.91)
+		(end 6.79 6.91)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "875e11a4-b9e1-455b-a26f-7bc2936b9209")
+	)
+	(fp_line
+		(start 6.79 -3.45)
+		(end -6.79 -3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "df1eec84-9932-4e8c-8179-376193681e4c")
+	)
+	(fp_line
+		(start 6.79 6.91)
+		(end 6.79 -3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "af614105-19e7-400e-8438-64b4a66fd235")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "B.SilkS")
+		(uuid "4ca5eb6b-8c1d-41d7-8cee-ad2edb4dbabe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "CPG1232 - 12.7x13.7 plate cutout"
+		(at 0 -7.7 0)
+		(layer "Cmts.User")
+		(uuid "b34f1a74-1f5f-43f0-8be4-a3fe7bbf42a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${VALUE}"
+		(at 0 8.255 0)
+		(layer "B.Fab")
+		(uuid "1252dcec-c492-4328-bcc7-676d9ad89fd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+)
